@@ -1,1000 +1,963 @@
-INSERT INTO auctioneer VALUES (1, 0, 0); 
-INSERT INTO auctioneer VALUES (4, 0, 0); 
-INSERT INTO auctioneer VALUES (6, 0, 0); 
-INSERT INTO auctioneer VALUES (12, 0, 0); 
-INSERT INTO auctioneer VALUES (14, 0, 0); 
-INSERT INTO auctioneer VALUES (19, 0, 0); 
-INSERT INTO auctioneer VALUES (20, 0, 0); 
-INSERT INTO auctioneer VALUES (21, 0, 0); 
-INSERT INTO auctioneer VALUES (44, 0, 0); 
-INSERT INTO auctioneer VALUES (62, 0, 0); 
-INSERT INTO auctioneer VALUES (65, 0, 0); 
-INSERT INTO auctioneer VALUES (81, 0, 0); 
-INSERT INTO auctioneer VALUES (87, 0, 0); 
-INSERT INTO auctioneer VALUES (91, 0, 0); 
-INSERT INTO auctioneer VALUES (95, 0, 0); 
-INSERT INTO auctioneer VALUES (100, 0, 0); 
-INSERT INTO auctioneer VALUES (104, 0, 0); 
-INSERT INTO auctioneer VALUES (107, 0, 0); 
-INSERT INTO auctioneer VALUES (111, 0, 0); 
-INSERT INTO auctioneer VALUES (120, 0, 0); 
-INSERT INTO auctioneer VALUES (139, 0, 0); 
-INSERT INTO auctioneer VALUES (145, 0, 0); 
-INSERT INTO auctioneer VALUES (156, 0, 0); 
-INSERT INTO auctioneer VALUES (164, 0, 0); 
-INSERT INTO auctioneer VALUES (168, 0, 0); 
-INSERT INTO auctioneer VALUES (172, 0, 0); 
-INSERT INTO auctioneer VALUES (174, 0, 0); 
-INSERT INTO auctioneer VALUES (191, 0, 0); 
-INSERT INTO auctioneer VALUES (198, 0, 0); 
-INSERT INTO auctioneer VALUES (209, 0, 0); 
-INSERT INTO auctioneer VALUES (215, 0, 0); 
-INSERT INTO auctioneer VALUES (231, 0, 0); 
-INSERT INTO auctioneer VALUES (240, 0, 0); 
-INSERT INTO auctioneer VALUES (241, 0, 0); 
-INSERT INTO auctioneer VALUES (243, 0, 0); 
-INSERT INTO auctioneer VALUES (257, 0, 0); 
-INSERT INTO auctioneer VALUES (259, 0, 0); 
-INSERT INTO auctioneer VALUES (260, 0, 0); 
-INSERT INTO auctioneer VALUES (264, 0, 0); 
-INSERT INTO auctioneer VALUES (272, 0, 0); 
-INSERT INTO auctioneer VALUES (274, 0, 0); 
-INSERT INTO auctioneer VALUES (276, 0, 0); 
-INSERT INTO auctioneer VALUES (280, 0, 0); 
-INSERT INTO auctioneer VALUES (285, 0, 0); 
-INSERT INTO auctioneer VALUES (298, 0, 0); 
-INSERT INTO auctioneer VALUES (307, 0, 0); 
-INSERT INTO auctioneer VALUES (333, 0, 0); 
-INSERT INTO auctioneer VALUES (342, 0, 0); 
-INSERT INTO auctioneer VALUES (353, 0, 0); 
-INSERT INTO auctioneer VALUES (378, 0, 0); 
-INSERT INTO auctioneer VALUES (384, 0, 0); 
-INSERT INTO auctioneer VALUES (390, 0, 0); 
-INSERT INTO auctioneer VALUES (407, 0, 0); 
-INSERT INTO auctioneer VALUES (410, 0, 0); 
-INSERT INTO auctioneer VALUES (423, 0, 0); 
-INSERT INTO auctioneer VALUES (427, 0, 0); 
-INSERT INTO auctioneer VALUES (428, 0, 0); 
-INSERT INTO auctioneer VALUES (431, 0, 0); 
-INSERT INTO auctioneer VALUES (432, 0, 0); 
-INSERT INTO auctioneer VALUES (445, 0, 0); 
-INSERT INTO auctioneer VALUES (449, 0, 0); 
-INSERT INTO auctioneer VALUES (475, 0, 0); 
-INSERT INTO auctioneer VALUES (481, 0, 0); 
-INSERT INTO auctioneer VALUES (485, 0, 0); 
-INSERT INTO auctioneer VALUES (491, 0, 0); 
-INSERT INTO auctioneer VALUES (506, 0, 0); 
-INSERT INTO auctioneer VALUES (509, 0, 0); 
-INSERT INTO auctioneer VALUES (514, 0, 0); 
-INSERT INTO auctioneer VALUES (519, 0, 0); 
-INSERT INTO auctioneer VALUES (520, 0, 0); 
-INSERT INTO auctioneer VALUES (529, 0, 0); 
-INSERT INTO auctioneer VALUES (574, 0, 0); 
-INSERT INTO auctioneer VALUES (594, 0, 0); 
-INSERT INTO auctioneer VALUES (595, 0, 0); 
-INSERT INTO auctioneer VALUES (612, 0, 0); 
-INSERT INTO auctioneer VALUES (614, 0, 0); 
-INSERT INTO auctioneer VALUES (623, 0, 0); 
-INSERT INTO auctioneer VALUES (625, 0, 0); 
-INSERT INTO auctioneer VALUES (627, 0, 0); 
-INSERT INTO auctioneer VALUES (653, 0, 0); 
-INSERT INTO auctioneer VALUES (654, 0, 0); 
-INSERT INTO auctioneer VALUES (661, 0, 0); 
-INSERT INTO auctioneer VALUES (670, 0, 0); 
-INSERT INTO auctioneer VALUES (672, 0, 0); 
-INSERT INTO auctioneer VALUES (675, 0, 0); 
-INSERT INTO auctioneer VALUES (676, 0, 0); 
-INSERT INTO auctioneer VALUES (686, 0, 0); 
-INSERT INTO auctioneer VALUES (687, 0, 0); 
-INSERT INTO auctioneer VALUES (699, 0, 0); 
-INSERT INTO auctioneer VALUES (716, 0, 0); 
-INSERT INTO auctioneer VALUES (720, 0, 0); 
-INSERT INTO auctioneer VALUES (726, 0, 0); 
-INSERT INTO auctioneer VALUES (735, 0, 0); 
-INSERT INTO auctioneer VALUES (738, 0, 0); 
-INSERT INTO auctioneer VALUES (769, 0, 0); 
-INSERT INTO auctioneer VALUES (774, 0, 0); 
-INSERT INTO auctioneer VALUES (794, 0, 0); 
-INSERT INTO auctioneer VALUES (805, 0, 0); 
-INSERT INTO auctioneer VALUES (827, 0, 0); 
-INSERT INTO auctioneer VALUES (830, 0, 0); 
-INSERT INTO auctioneer VALUES (836, 0, 0); 
-INSERT INTO auctioneer VALUES (872, 0, 0); 
-INSERT INTO auctioneer VALUES (881, 0, 0); 
-INSERT INTO auctioneer VALUES (889, 0, 0); 
-INSERT INTO auctioneer VALUES (898, 0, 0); 
-INSERT INTO auctioneer VALUES (899, 0, 0); 
-INSERT INTO auctioneer VALUES (913, 0, 0); 
-INSERT INTO auctioneer VALUES (918, 0, 0); 
-INSERT INTO auctioneer VALUES (923, 0, 0); 
-INSERT INTO auctioneer VALUES (924, 0, 0); 
-INSERT INTO auctioneer VALUES (942, 0, 0); 
-INSERT INTO auctioneer VALUES (957, 0, 0); 
-INSERT INTO auctioneer VALUES (976, 0, 0); 
-INSERT INTO auctioneer VALUES (982, 0, 0); 
-INSERT INTO auctioneer VALUES (983, 0, 0); 
-INSERT INTO auctioneer VALUES (989, 0, 0); 
-INSERT INTO auctioneer VALUES (992, 0, 0); 
-INSERT INTO auctioneer VALUES (997, 0, 0); 
-INSERT INTO auctioneer VALUES (1000, 0, 0); 
-INSERT INTO auctioneer VALUES (1010, 0, 0); 
-INSERT INTO auctioneer VALUES (1023, 0, 0); 
-INSERT INTO auctioneer VALUES (1029, 0, 0); 
-INSERT INTO auctioneer VALUES (1030, 0, 0); 
-INSERT INTO auctioneer VALUES (1032, 0, 0); 
-INSERT INTO auctioneer VALUES (1044, 0, 0); 
-INSERT INTO auctioneer VALUES (1046, 0, 0); 
-INSERT INTO auctioneer VALUES (1057, 0, 0); 
-INSERT INTO auctioneer VALUES (1064, 0, 0); 
-INSERT INTO auctioneer VALUES (1068, 0, 0); 
-INSERT INTO auctioneer VALUES (1086, 0, 0); 
-INSERT INTO auctioneer VALUES (1104, 0, 0); 
-INSERT INTO auctioneer VALUES (1118, 0, 0); 
-INSERT INTO auctioneer VALUES (1134, 0, 0); 
-INSERT INTO auctioneer VALUES (1136, 0, 0); 
-INSERT INTO auctioneer VALUES (1148, 0, 0); 
-INSERT INTO auctioneer VALUES (1157, 0, 0); 
-INSERT INTO auctioneer VALUES (1164, 0, 0); 
-INSERT INTO auctioneer VALUES (1165, 0, 0); 
-INSERT INTO auctioneer VALUES (1172, 0, 0); 
-INSERT INTO auctioneer VALUES (1173, 0, 0); 
-INSERT INTO auctioneer VALUES (1214, 0, 0); 
-INSERT INTO auctioneer VALUES (1219, 0, 0); 
-INSERT INTO auctioneer VALUES (1223, 0, 0); 
-INSERT INTO auctioneer VALUES (1241, 0, 0); 
-INSERT INTO auctioneer VALUES (1250, 0, 0); 
-INSERT INTO auctioneer VALUES (1254, 0, 0); 
-INSERT INTO auctioneer VALUES (1262, 0, 0); 
-INSERT INTO auctioneer VALUES (1275, 0, 0); 
-INSERT INTO auctioneer VALUES (1293, 0, 0); 
-INSERT INTO auctioneer VALUES (1305, 0, 0); 
-INSERT INTO auctioneer VALUES (1307, 0, 0); 
-INSERT INTO auctioneer VALUES (1311, 0, 0); 
-INSERT INTO auctioneer VALUES (1327, 0, 0); 
-INSERT INTO auctioneer VALUES (1340, 0, 0); 
-INSERT INTO auctioneer VALUES (1353, 0, 0); 
-INSERT INTO auctioneer VALUES (1361, 0, 0); 
-INSERT INTO auctioneer VALUES (1375, 0, 0); 
-INSERT INTO auctioneer VALUES (1384, 0, 0); 
-INSERT INTO auctioneer VALUES (1386, 0, 0); 
-INSERT INTO auctioneer VALUES (1413, 0, 0); 
-INSERT INTO auctioneer VALUES (1434, 0, 0); 
-INSERT INTO auctioneer VALUES (1470, 0, 0); 
-INSERT INTO auctioneer VALUES (1487, 0, 0); 
-INSERT INTO auctioneer VALUES (1521, 0, 0); 
-INSERT INTO auctioneer VALUES (1538, 0, 0); 
-INSERT INTO auctioneer VALUES (1550, 0, 0); 
-INSERT INTO auctioneer VALUES (1556, 0, 0); 
-INSERT INTO auctioneer VALUES (1558, 0, 0); 
-INSERT INTO auctioneer VALUES (1564, 0, 0); 
-INSERT INTO auctioneer VALUES (1592, 0, 0); 
-INSERT INTO auctioneer VALUES (1602, 0, 0); 
-INSERT INTO auctioneer VALUES (1604, 0, 0); 
-INSERT INTO auctioneer VALUES (1606, 0, 0); 
-INSERT INTO auctioneer VALUES (1621, 0, 0); 
-INSERT INTO auctioneer VALUES (1622, 0, 0); 
-INSERT INTO auctioneer VALUES (1635, 0, 0); 
-INSERT INTO auctioneer VALUES (1637, 0, 0); 
-INSERT INTO auctioneer VALUES (1638, 0, 0); 
-INSERT INTO auctioneer VALUES (1644, 0, 0); 
-INSERT INTO auctioneer VALUES (1659, 0, 0); 
-INSERT INTO auctioneer VALUES (1662, 0, 0); 
-INSERT INTO auctioneer VALUES (1663, 0, 0); 
-INSERT INTO auctioneer VALUES (1681, 0, 0); 
-INSERT INTO auctioneer VALUES (1686, 0, 0); 
-INSERT INTO auctioneer VALUES (1697, 0, 0); 
-INSERT INTO auctioneer VALUES (1702, 0, 0); 
-INSERT INTO auctioneer VALUES (1708, 0, 0); 
-INSERT INTO auctioneer VALUES (1718, 0, 0); 
-INSERT INTO auctioneer VALUES (1736, 0, 0); 
-INSERT INTO auctioneer VALUES (1738, 0, 0); 
-INSERT INTO auctioneer VALUES (1740, 0, 0); 
-INSERT INTO auctioneer VALUES (1749, 0, 0); 
-INSERT INTO auctioneer VALUES (1761, 0, 0); 
-INSERT INTO auctioneer VALUES (1763, 0, 0); 
-INSERT INTO auctioneer VALUES (1800, 0, 0); 
-INSERT INTO auctioneer VALUES (1812, 0, 0); 
-INSERT INTO auctioneer VALUES (1814, 0, 0); 
-INSERT INTO auctioneer VALUES (1821, 0, 0); 
-INSERT INTO auctioneer VALUES (1831, 0, 0); 
-INSERT INTO auctioneer VALUES (1865, 0, 0); 
-INSERT INTO auctioneer VALUES (1896, 0, 0); 
-INSERT INTO auctioneer VALUES (1898, 0, 0); 
-INSERT INTO auctioneer VALUES (1918, 0, 0); 
-INSERT INTO auctioneer VALUES (1927, 0, 0); 
-INSERT INTO auctioneer VALUES (1936, 0, 0); 
-INSERT INTO auctioneer VALUES (1956, 0, 0); 
-INSERT INTO auctioneer VALUES (1957, 0, 0); 
-INSERT INTO auctioneer VALUES (1958, 0, 0); 
-INSERT INTO auctioneer VALUES (1983, 0, 0); 
-INSERT INTO auctioneer VALUES (2000, 0, 0); 
-INSERT INTO auctioneer VALUES (2018, 0, 0); 
-INSERT INTO auctioneer VALUES (2021, 0, 0); 
-INSERT INTO auctioneer VALUES (2022, 0, 0); 
-INSERT INTO auctioneer VALUES (2024, 0, 0); 
-INSERT INTO auctioneer VALUES (2034, 0, 0); 
-INSERT INTO auctioneer VALUES (2035, 0, 0); 
-INSERT INTO auctioneer VALUES (2043, 0, 0); 
-INSERT INTO auctioneer VALUES (2079, 0, 0); 
-INSERT INTO auctioneer VALUES (2087, 0, 0); 
-INSERT INTO auctioneer VALUES (2103, 0, 0); 
-INSERT INTO auctioneer VALUES (2106, 0, 0); 
-INSERT INTO auctioneer VALUES (2110, 0, 0); 
-INSERT INTO auctioneer VALUES (2140, 0, 0); 
-INSERT INTO auctioneer VALUES (2156, 0, 0); 
-INSERT INTO auctioneer VALUES (2178, 0, 0); 
-INSERT INTO auctioneer VALUES (2188, 0, 0); 
-INSERT INTO auctioneer VALUES (2191, 0, 0); 
-INSERT INTO auctioneer VALUES (2195, 0, 0); 
-INSERT INTO auctioneer VALUES (2196, 0, 0); 
-INSERT INTO auctioneer VALUES (2199, 0, 0); 
-INSERT INTO auctioneer VALUES (2207, 0, 0); 
-INSERT INTO auctioneer VALUES (2215, 0, 0); 
-INSERT INTO auctioneer VALUES (2221, 0, 0); 
-INSERT INTO auctioneer VALUES (2235, 0, 0); 
-INSERT INTO auctioneer VALUES (2237, 0, 0); 
-INSERT INTO auctioneer VALUES (2240, 0, 0); 
-INSERT INTO auctioneer VALUES (2246, 0, 0); 
-INSERT INTO auctioneer VALUES (2264, 0, 0); 
-INSERT INTO auctioneer VALUES (2271, 0, 0); 
-INSERT INTO auctioneer VALUES (2289, 0, 0); 
-INSERT INTO auctioneer VALUES (2302, 0, 0); 
-INSERT INTO auctioneer VALUES (2310, 0, 0); 
-INSERT INTO auctioneer VALUES (2313, 0, 0); 
-INSERT INTO auctioneer VALUES (2345, 0, 0); 
-INSERT INTO auctioneer VALUES (2356, 0, 0); 
-INSERT INTO auctioneer VALUES (2366, 0, 0); 
-INSERT INTO auctioneer VALUES (2414, 0, 0); 
-INSERT INTO auctioneer VALUES (2421, 0, 0); 
-INSERT INTO auctioneer VALUES (2422, 0, 0); 
-INSERT INTO auctioneer VALUES (2447, 0, 0); 
-INSERT INTO auctioneer VALUES (2448, 0, 0); 
-INSERT INTO auctioneer VALUES (2452, 0, 0); 
-INSERT INTO auctioneer VALUES (2463, 0, 0); 
-INSERT INTO auctioneer VALUES (2467, 0, 0); 
-INSERT INTO auctioneer VALUES (2468, 0, 0); 
-INSERT INTO auctioneer VALUES (2475, 0, 0); 
-INSERT INTO auctioneer VALUES (2515, 0, 0); 
-INSERT INTO auctioneer VALUES (2519, 0, 0); 
-INSERT INTO auctioneer VALUES (2524, 0, 0); 
-INSERT INTO auctioneer VALUES (2535, 0, 0); 
-INSERT INTO auctioneer VALUES (2542, 0, 0); 
-INSERT INTO auctioneer VALUES (2554, 0, 0); 
-INSERT INTO auctioneer VALUES (2564, 0, 0); 
-INSERT INTO auctioneer VALUES (2579, 0, 0); 
-INSERT INTO auctioneer VALUES (2584, 0, 0); 
-INSERT INTO auctioneer VALUES (2602, 0, 0); 
-INSERT INTO auctioneer VALUES (2618, 0, 0); 
-INSERT INTO auctioneer VALUES (2619, 0, 0); 
-INSERT INTO auctioneer VALUES (2632, 0, 0); 
-INSERT INTO auctioneer VALUES (2633, 0, 0); 
-INSERT INTO auctioneer VALUES (2666, 0, 0); 
-INSERT INTO auctioneer VALUES (2672, 0, 0); 
-INSERT INTO auctioneer VALUES (2698, 0, 0); 
-INSERT INTO auctioneer VALUES (2708, 0, 0); 
-INSERT INTO auctioneer VALUES (2718, 0, 0); 
-INSERT INTO auctioneer VALUES (2739, 0, 0); 
-INSERT INTO auctioneer VALUES (2745, 0, 0); 
-INSERT INTO auctioneer VALUES (2757, 0, 0); 
-INSERT INTO auctioneer VALUES (2761, 0, 0); 
-INSERT INTO auctioneer VALUES (2767, 0, 0); 
-INSERT INTO auctioneer VALUES (2774, 0, 0); 
-INSERT INTO auctioneer VALUES (2775, 0, 0); 
-INSERT INTO auctioneer VALUES (2791, 0, 0); 
-INSERT INTO auctioneer VALUES (2792, 0, 0); 
-INSERT INTO auctioneer VALUES (2793, 0, 0); 
-INSERT INTO auctioneer VALUES (2805, 0, 0); 
-INSERT INTO auctioneer VALUES (2813, 0, 0); 
-INSERT INTO auctioneer VALUES (2819, 0, 0); 
-INSERT INTO auctioneer VALUES (2830, 0, 0); 
-INSERT INTO auctioneer VALUES (2845, 0, 0); 
-INSERT INTO auctioneer VALUES (2850, 0, 0); 
-INSERT INTO auctioneer VALUES (2859, 0, 0); 
-INSERT INTO auctioneer VALUES (2865, 0, 0); 
-INSERT INTO auctioneer VALUES (2867, 0, 0); 
-INSERT INTO auctioneer VALUES (2880, 0, 0); 
-INSERT INTO auctioneer VALUES (2889, 0, 0); 
-INSERT INTO auctioneer VALUES (2924, 0, 0); 
-INSERT INTO auctioneer VALUES (2931, 0, 0); 
-INSERT INTO auctioneer VALUES (2949, 0, 0); 
-INSERT INTO auctioneer VALUES (2963, 0, 0); 
-INSERT INTO auctioneer VALUES (2974, 0, 0); 
-INSERT INTO auctioneer VALUES (3036, 0, 0); 
-INSERT INTO auctioneer VALUES (3047, 0, 0); 
-INSERT INTO auctioneer VALUES (3050, 0, 0); 
-INSERT INTO auctioneer VALUES (3064, 0, 0); 
-INSERT INTO auctioneer VALUES (3073, 0, 0); 
-INSERT INTO auctioneer VALUES (3078, 0, 0); 
-INSERT INTO auctioneer VALUES (3087, 0, 0); 
-INSERT INTO auctioneer VALUES (3090, 0, 0); 
-INSERT INTO auctioneer VALUES (3116, 0, 0); 
-INSERT INTO auctioneer VALUES (3126, 0, 0); 
-INSERT INTO auctioneer VALUES (3138, 0, 0); 
-INSERT INTO auctioneer VALUES (3145, 0, 0); 
-INSERT INTO auctioneer VALUES (3154, 0, 0); 
-INSERT INTO auctioneer VALUES (3155, 0, 0); 
-INSERT INTO auctioneer VALUES (3157, 0, 0); 
-INSERT INTO auctioneer VALUES (3161, 0, 0); 
-INSERT INTO auctioneer VALUES (3164, 0, 0); 
-INSERT INTO auctioneer VALUES (3168, 0, 0); 
-INSERT INTO auctioneer VALUES (3213, 0, 0); 
-INSERT INTO auctioneer VALUES (3228, 0, 0); 
-INSERT INTO auctioneer VALUES (3229, 0, 0); 
-INSERT INTO auctioneer VALUES (3233, 0, 0); 
-INSERT INTO auctioneer VALUES (3234, 0, 0); 
-INSERT INTO auctioneer VALUES (3257, 0, 0); 
-INSERT INTO auctioneer VALUES (3280, 0, 0); 
-INSERT INTO auctioneer VALUES (3293, 0, 0); 
-INSERT INTO auctioneer VALUES (3298, 0, 0); 
-INSERT INTO auctioneer VALUES (3305, 0, 0); 
-INSERT INTO auctioneer VALUES (3307, 0, 0); 
-INSERT INTO auctioneer VALUES (3309, 0, 0); 
-INSERT INTO auctioneer VALUES (3319, 0, 0); 
-INSERT INTO auctioneer VALUES (3332, 0, 0); 
-INSERT INTO auctioneer VALUES (3334, 0, 0); 
-INSERT INTO auctioneer VALUES (3338, 0, 0); 
-INSERT INTO auctioneer VALUES (3350, 0, 0); 
-INSERT INTO auctioneer VALUES (3354, 0, 0); 
-INSERT INTO auctioneer VALUES (3355, 0, 0); 
-INSERT INTO auctioneer VALUES (3369, 0, 0); 
-INSERT INTO auctioneer VALUES (3375, 0, 0); 
-INSERT INTO auctioneer VALUES (3386, 0, 0); 
-INSERT INTO auctioneer VALUES (3388, 0, 0); 
-INSERT INTO auctioneer VALUES (3404, 0, 0); 
-INSERT INTO auctioneer VALUES (3405, 0, 0); 
-INSERT INTO auctioneer VALUES (3409, 0, 0); 
-INSERT INTO auctioneer VALUES (3435, 0, 0); 
-INSERT INTO auctioneer VALUES (3441, 0, 0); 
-INSERT INTO auctioneer VALUES (3449, 0, 0); 
-INSERT INTO auctioneer VALUES (3458, 0, 0); 
-INSERT INTO auctioneer VALUES (3460, 0, 0); 
-INSERT INTO auctioneer VALUES (3466, 0, 0); 
-INSERT INTO auctioneer VALUES (3467, 0, 0); 
-INSERT INTO auctioneer VALUES (3471, 0, 0); 
-INSERT INTO auctioneer VALUES (3490, 0, 0); 
-INSERT INTO auctioneer VALUES (3503, 0, 0); 
-INSERT INTO auctioneer VALUES (3533, 0, 0); 
-INSERT INTO auctioneer VALUES (3538, 0, 0); 
-INSERT INTO auctioneer VALUES (3546, 0, 0); 
-INSERT INTO auctioneer VALUES (3550, 0, 0); 
-INSERT INTO auctioneer VALUES (3558, 0, 0); 
-INSERT INTO auctioneer VALUES (3579, 0, 0); 
-INSERT INTO auctioneer VALUES (3582, 0, 0); 
-INSERT INTO auctioneer VALUES (3587, 0, 0); 
-INSERT INTO auctioneer VALUES (3588, 0, 0); 
-INSERT INTO auctioneer VALUES (3594, 0, 0); 
-INSERT INTO auctioneer VALUES (3601, 0, 0); 
-INSERT INTO auctioneer VALUES (3614, 0, 0); 
-INSERT INTO auctioneer VALUES (3635, 0, 0); 
-INSERT INTO auctioneer VALUES (3637, 0, 0); 
-INSERT INTO auctioneer VALUES (3651, 0, 0); 
-INSERT INTO auctioneer VALUES (3654, 0, 0); 
-INSERT INTO auctioneer VALUES (3656, 0, 0); 
-INSERT INTO auctioneer VALUES (3658, 0, 0); 
-INSERT INTO auctioneer VALUES (3664, 0, 0); 
-INSERT INTO auctioneer VALUES (3665, 0, 0); 
-INSERT INTO auctioneer VALUES (3677, 0, 0); 
-INSERT INTO auctioneer VALUES (3683, 0, 0); 
-INSERT INTO auctioneer VALUES (3703, 0, 0); 
-INSERT INTO auctioneer VALUES (3706, 0, 0); 
-INSERT INTO auctioneer VALUES (3712, 0, 0); 
-INSERT INTO auctioneer VALUES (3739, 0, 0); 
-INSERT INTO auctioneer VALUES (3748, 0, 0); 
-INSERT INTO auctioneer VALUES (3752, 0, 0); 
-INSERT INTO auctioneer VALUES (3758, 0, 0); 
-INSERT INTO auctioneer VALUES (3767, 0, 0); 
-INSERT INTO auctioneer VALUES (3776, 0, 0); 
-INSERT INTO auctioneer VALUES (3789, 0, 0); 
-INSERT INTO auctioneer VALUES (3791, 0, 0); 
-INSERT INTO auctioneer VALUES (3793, 0, 0); 
-INSERT INTO auctioneer VALUES (3797, 0, 0); 
-INSERT INTO auctioneer VALUES (3810, 0, 0); 
-INSERT INTO auctioneer VALUES (3811, 0, 0); 
-INSERT INTO auctioneer VALUES (3812, 0, 0); 
-INSERT INTO auctioneer VALUES (3826, 0, 0); 
-INSERT INTO auctioneer VALUES (3827, 0, 0); 
-INSERT INTO auctioneer VALUES (3836, 0, 0); 
-INSERT INTO auctioneer VALUES (3845, 0, 0); 
-INSERT INTO auctioneer VALUES (3853, 0, 0); 
-INSERT INTO auctioneer VALUES (3858, 0, 0); 
-INSERT INTO auctioneer VALUES (3868, 0, 0); 
-INSERT INTO auctioneer VALUES (3903, 0, 0); 
-INSERT INTO auctioneer VALUES (3912, 0, 0); 
-INSERT INTO auctioneer VALUES (3923, 0, 0); 
-INSERT INTO auctioneer VALUES (3935, 0, 0); 
-INSERT INTO auctioneer VALUES (3937, 0, 0); 
-INSERT INTO auctioneer VALUES (3938, 0, 0); 
-INSERT INTO auctioneer VALUES (3945, 0, 0); 
-INSERT INTO auctioneer VALUES (3964, 0, 0); 
-INSERT INTO auctioneer VALUES (3971, 0, 0); 
-INSERT INTO auctioneer VALUES (3980, 0, 0); 
-INSERT INTO auctioneer VALUES (3985, 0, 0); 
-INSERT INTO auctioneer VALUES (3986, 0, 0); 
-INSERT INTO auctioneer VALUES (3997, 0, 0); 
-INSERT INTO auctioneer VALUES (3998, 0, 0); 
-INSERT INTO auctioneer VALUES (4013, 0, 0); 
-INSERT INTO auctioneer VALUES (4028, 0, 0); 
-INSERT INTO auctioneer VALUES (4037, 0, 0); 
-INSERT INTO auctioneer VALUES (4038, 0, 0); 
-INSERT INTO auctioneer VALUES (4051, 0, 0); 
-INSERT INTO auctioneer VALUES (4063, 0, 0); 
-INSERT INTO auctioneer VALUES (4068, 0, 0); 
-INSERT INTO auctioneer VALUES (4107, 0, 0); 
-INSERT INTO auctioneer VALUES (4133, 0, 0); 
-INSERT INTO auctioneer VALUES (4138, 0, 0); 
-INSERT INTO auctioneer VALUES (4163, 0, 0); 
-INSERT INTO auctioneer VALUES (4165, 0, 0); 
-INSERT INTO auctioneer VALUES (4175, 0, 0); 
-INSERT INTO auctioneer VALUES (4196, 0, 0); 
-INSERT INTO auctioneer VALUES (4197, 0, 0); 
-INSERT INTO auctioneer VALUES (4217, 0, 0); 
-INSERT INTO auctioneer VALUES (4220, 0, 0); 
-INSERT INTO auctioneer VALUES (4232, 0, 0); 
-INSERT INTO auctioneer VALUES (4237, 0, 0); 
-INSERT INTO auctioneer VALUES (4240, 0, 0); 
-INSERT INTO auctioneer VALUES (4248, 0, 0); 
-INSERT INTO auctioneer VALUES (4256, 0, 0); 
-INSERT INTO auctioneer VALUES (4257, 0, 0); 
-INSERT INTO auctioneer VALUES (4273, 0, 0); 
-INSERT INTO auctioneer VALUES (4279, 0, 0); 
-INSERT INTO auctioneer VALUES (4300, 0, 0); 
-INSERT INTO auctioneer VALUES (4324, 0, 0); 
-INSERT INTO auctioneer VALUES (4345, 0, 0); 
-INSERT INTO auctioneer VALUES (4358, 0, 0); 
-INSERT INTO auctioneer VALUES (4366, 0, 0); 
-INSERT INTO auctioneer VALUES (4373, 0, 0); 
-INSERT INTO auctioneer VALUES (4378, 0, 0); 
-INSERT INTO auctioneer VALUES (4386, 0, 0); 
-INSERT INTO auctioneer VALUES (4401, 0, 0); 
-INSERT INTO auctioneer VALUES (4412, 0, 0); 
-INSERT INTO auctioneer VALUES (4415, 0, 0); 
-INSERT INTO auctioneer VALUES (4420, 0, 0); 
-INSERT INTO auctioneer VALUES (4435, 0, 0); 
-INSERT INTO auctioneer VALUES (4453, 0, 0); 
-INSERT INTO auctioneer VALUES (4454, 0, 0); 
-INSERT INTO auctioneer VALUES (4468, 0, 0); 
-INSERT INTO auctioneer VALUES (4475, 0, 0); 
-INSERT INTO auctioneer VALUES (4480, 0, 0); 
-INSERT INTO auctioneer VALUES (4484, 0, 0); 
-INSERT INTO auctioneer VALUES (4508, 0, 0); 
-INSERT INTO auctioneer VALUES (4511, 0, 0); 
-INSERT INTO auctioneer VALUES (4513, 0, 0); 
-INSERT INTO auctioneer VALUES (4516, 0, 0); 
-INSERT INTO auctioneer VALUES (4540, 0, 0); 
-INSERT INTO auctioneer VALUES (4550, 0, 0); 
-INSERT INTO auctioneer VALUES (4551, 0, 0); 
-INSERT INTO auctioneer VALUES (4552, 0, 0); 
-INSERT INTO auctioneer VALUES (4556, 0, 0); 
-INSERT INTO auctioneer VALUES (4565, 0, 0); 
-INSERT INTO auctioneer VALUES (4572, 0, 0); 
-INSERT INTO auctioneer VALUES (4593, 0, 0); 
-INSERT INTO auctioneer VALUES (4594, 0, 0); 
-INSERT INTO auctioneer VALUES (4612, 0, 0); 
-INSERT INTO auctioneer VALUES (4621, 0, 0); 
-INSERT INTO auctioneer VALUES (4628, 0, 0); 
-INSERT INTO auctioneer VALUES (4629, 0, 0); 
-INSERT INTO auctioneer VALUES (4644, 0, 0); 
-INSERT INTO auctioneer VALUES (4663, 0, 0); 
-INSERT INTO auctioneer VALUES (4676, 0, 0); 
-INSERT INTO auctioneer VALUES (4682, 0, 0); 
-INSERT INTO auctioneer VALUES (4683, 0, 0); 
-INSERT INTO auctioneer VALUES (4712, 0, 0); 
-INSERT INTO auctioneer VALUES (4723, 0, 0); 
-INSERT INTO auctioneer VALUES (4749, 0, 0); 
-INSERT INTO auctioneer VALUES (4756, 0, 0); 
-INSERT INTO auctioneer VALUES (4782, 0, 0); 
-INSERT INTO auctioneer VALUES (4788, 0, 0); 
-INSERT INTO auctioneer VALUES (4802, 0, 0); 
-INSERT INTO auctioneer VALUES (4805, 0, 0); 
-INSERT INTO auctioneer VALUES (4823, 0, 0); 
-INSERT INTO auctioneer VALUES (4825, 0, 0); 
-INSERT INTO auctioneer VALUES (4831, 0, 0); 
-INSERT INTO auctioneer VALUES (4845, 0, 0); 
-INSERT INTO auctioneer VALUES (4848, 0, 0); 
-INSERT INTO auctioneer VALUES (4862, 0, 0); 
-INSERT INTO auctioneer VALUES (4870, 0, 0); 
-INSERT INTO auctioneer VALUES (4885, 0, 0); 
-INSERT INTO auctioneer VALUES (4886, 0, 0); 
-INSERT INTO auctioneer VALUES (4887, 0, 0); 
-INSERT INTO auctioneer VALUES (4890, 0, 0); 
-INSERT INTO auctioneer VALUES (4907, 0, 0); 
-INSERT INTO auctioneer VALUES (4919, 0, 0); 
-INSERT INTO auctioneer VALUES (4960, 0, 0); 
-INSERT INTO auctioneer VALUES (5011, 0, 0); 
-INSERT INTO auctioneer VALUES (5029, 0, 0); 
-INSERT INTO auctioneer VALUES (5030, 0, 0); 
-INSERT INTO auctioneer VALUES (5038, 0, 0); 
-INSERT INTO auctioneer VALUES (5072, 0, 0); 
-INSERT INTO auctioneer VALUES (5074, 0, 0); 
-INSERT INTO auctioneer VALUES (5075, 0, 0); 
-INSERT INTO auctioneer VALUES (5079, 0, 0); 
-INSERT INTO auctioneer VALUES (5080, 0, 0); 
-INSERT INTO auctioneer VALUES (5081, 0, 0); 
-INSERT INTO auctioneer VALUES (5092, 0, 0); 
-INSERT INTO auctioneer VALUES (5104, 0, 0); 
-INSERT INTO auctioneer VALUES (5132, 0, 0); 
-INSERT INTO auctioneer VALUES (5138, 0, 0); 
-INSERT INTO auctioneer VALUES (5140, 0, 0); 
-INSERT INTO auctioneer VALUES (5142, 0, 0); 
-INSERT INTO auctioneer VALUES (5151, 0, 0); 
-INSERT INTO auctioneer VALUES (5152, 0, 0); 
-INSERT INTO auctioneer VALUES (5160, 0, 0); 
-INSERT INTO auctioneer VALUES (5182, 0, 0); 
-INSERT INTO auctioneer VALUES (5184, 0, 0); 
-INSERT INTO auctioneer VALUES (5192, 0, 0); 
-INSERT INTO auctioneer VALUES (5199, 0, 0); 
-INSERT INTO auctioneer VALUES (5206, 0, 0); 
-INSERT INTO auctioneer VALUES (5217, 0, 0); 
-INSERT INTO auctioneer VALUES (5243, 0, 0); 
-INSERT INTO auctioneer VALUES (5246, 0, 0); 
-INSERT INTO auctioneer VALUES (5250, 0, 0); 
-INSERT INTO auctioneer VALUES (5257, 0, 0); 
-INSERT INTO auctioneer VALUES (5265, 0, 0); 
-INSERT INTO auctioneer VALUES (5270, 0, 0); 
-INSERT INTO auctioneer VALUES (5271, 0, 0); 
-INSERT INTO auctioneer VALUES (5284, 0, 0); 
-INSERT INTO auctioneer VALUES (5292, 0, 0); 
-INSERT INTO auctioneer VALUES (5301, 0, 0); 
-INSERT INTO auctioneer VALUES (5312, 0, 0); 
-INSERT INTO auctioneer VALUES (5314, 0, 0); 
-INSERT INTO auctioneer VALUES (5315, 0, 0); 
-INSERT INTO auctioneer VALUES (5319, 0, 0); 
-INSERT INTO auctioneer VALUES (5351, 0, 0); 
-INSERT INTO auctioneer VALUES (5353, 0, 0); 
-INSERT INTO auctioneer VALUES (5359, 0, 0); 
-INSERT INTO auctioneer VALUES (5363, 0, 0); 
-INSERT INTO auctioneer VALUES (5369, 0, 0); 
-INSERT INTO auctioneer VALUES (5379, 0, 0); 
-INSERT INTO auctioneer VALUES (5386, 0, 0); 
-INSERT INTO auctioneer VALUES (5416, 0, 0); 
-INSERT INTO auctioneer VALUES (5440, 0, 0); 
-INSERT INTO auctioneer VALUES (5482, 0, 0); 
-INSERT INTO auctioneer VALUES (5508, 0, 0); 
-INSERT INTO auctioneer VALUES (5510, 0, 0); 
-INSERT INTO auctioneer VALUES (5524, 0, 0); 
-INSERT INTO auctioneer VALUES (5533, 0, 0); 
-INSERT INTO auctioneer VALUES (5535, 0, 0); 
-INSERT INTO auctioneer VALUES (5540, 0, 0); 
-INSERT INTO auctioneer VALUES (5543, 0, 0); 
-INSERT INTO auctioneer VALUES (5547, 0, 0); 
-INSERT INTO auctioneer VALUES (5578, 0, 0); 
-INSERT INTO auctioneer VALUES (5580, 0, 0); 
-INSERT INTO auctioneer VALUES (5604, 0, 0); 
-INSERT INTO auctioneer VALUES (5610, 0, 0); 
-INSERT INTO auctioneer VALUES (5614, 0, 0); 
-INSERT INTO auctioneer VALUES (5626, 0, 0); 
-INSERT INTO auctioneer VALUES (5673, 0, 0); 
-INSERT INTO auctioneer VALUES (5681, 0, 0); 
-INSERT INTO auctioneer VALUES (5729, 0, 0); 
-INSERT INTO auctioneer VALUES (5733, 0, 0); 
-INSERT INTO auctioneer VALUES (5745, 0, 0); 
-INSERT INTO auctioneer VALUES (5746, 0, 0); 
-INSERT INTO auctioneer VALUES (5752, 0, 0); 
-INSERT INTO auctioneer VALUES (5767, 0, 0); 
-INSERT INTO auctioneer VALUES (5772, 0, 0); 
-INSERT INTO auctioneer VALUES (5775, 0, 0); 
-INSERT INTO auctioneer VALUES (5784, 0, 0); 
-INSERT INTO auctioneer VALUES (5795, 0, 0); 
-INSERT INTO auctioneer VALUES (5800, 0, 0); 
-INSERT INTO auctioneer VALUES (5803, 0, 0); 
-INSERT INTO auctioneer VALUES (5816, 0, 0); 
-INSERT INTO auctioneer VALUES (5830, 0, 0); 
-INSERT INTO auctioneer VALUES (5840, 0, 0); 
-INSERT INTO auctioneer VALUES (5843, 0, 0); 
-INSERT INTO auctioneer VALUES (5852, 0, 0); 
-INSERT INTO auctioneer VALUES (5866, 0, 0); 
-INSERT INTO auctioneer VALUES (5868, 0, 0); 
-INSERT INTO auctioneer VALUES (5888, 0, 0); 
-INSERT INTO auctioneer VALUES (5890, 0, 0); 
-INSERT INTO auctioneer VALUES (5894, 0, 0); 
-INSERT INTO auctioneer VALUES (5898, 0, 0); 
-INSERT INTO auctioneer VALUES (5902, 0, 0); 
-INSERT INTO auctioneer VALUES (5907, 0, 0); 
-INSERT INTO auctioneer VALUES (5936, 0, 0); 
-INSERT INTO auctioneer VALUES (5958, 0, 0); 
-INSERT INTO auctioneer VALUES (5964, 0, 0); 
-INSERT INTO auctioneer VALUES (5967, 0, 0); 
-INSERT INTO auctioneer VALUES (5969, 0, 0); 
-INSERT INTO auctioneer VALUES (5976, 0, 0); 
-INSERT INTO auctioneer VALUES (5991, 0, 0); 
-INSERT INTO auctioneer VALUES (6001, 0, 0); 
-INSERT INTO auctioneer VALUES (6026, 0, 0); 
-INSERT INTO auctioneer VALUES (6031, 0, 0); 
-INSERT INTO auctioneer VALUES (6040, 0, 0); 
-INSERT INTO auctioneer VALUES (6043, 0, 0); 
-INSERT INTO auctioneer VALUES (6055, 0, 0); 
-INSERT INTO auctioneer VALUES (6059, 0, 0); 
-INSERT INTO auctioneer VALUES (6075, 0, 0); 
-INSERT INTO auctioneer VALUES (6092, 0, 0); 
-INSERT INTO auctioneer VALUES (6100, 0, 0); 
-INSERT INTO auctioneer VALUES (6117, 0, 0); 
-INSERT INTO auctioneer VALUES (6124, 0, 0); 
-INSERT INTO auctioneer VALUES (6135, 0, 0); 
-INSERT INTO auctioneer VALUES (6142, 0, 0); 
-INSERT INTO auctioneer VALUES (6153, 0, 0); 
-INSERT INTO auctioneer VALUES (6167, 0, 0); 
-INSERT INTO auctioneer VALUES (6190, 0, 0); 
-INSERT INTO auctioneer VALUES (6191, 0, 0); 
-INSERT INTO auctioneer VALUES (6192, 0, 0); 
-INSERT INTO auctioneer VALUES (6195, 0, 0); 
-INSERT INTO auctioneer VALUES (6196, 0, 0); 
-INSERT INTO auctioneer VALUES (6202, 0, 0); 
-INSERT INTO auctioneer VALUES (6204, 0, 0); 
-INSERT INTO auctioneer VALUES (6208, 0, 0); 
-INSERT INTO auctioneer VALUES (6217, 0, 0); 
-INSERT INTO auctioneer VALUES (6218, 0, 0); 
-INSERT INTO auctioneer VALUES (6223, 0, 0); 
-INSERT INTO auctioneer VALUES (6236, 0, 0); 
-INSERT INTO auctioneer VALUES (6246, 0, 0); 
-INSERT INTO auctioneer VALUES (6268, 0, 0); 
-INSERT INTO auctioneer VALUES (6294, 0, 0); 
-INSERT INTO auctioneer VALUES (6307, 0, 0); 
-INSERT INTO auctioneer VALUES (6309, 0, 0); 
-INSERT INTO auctioneer VALUES (6310, 0, 0); 
-INSERT INTO auctioneer VALUES (6314, 0, 0); 
-INSERT INTO auctioneer VALUES (6315, 0, 0); 
-INSERT INTO auctioneer VALUES (6317, 0, 0); 
-INSERT INTO auctioneer VALUES (6333, 0, 0); 
-INSERT INTO auctioneer VALUES (6334, 0, 0); 
-INSERT INTO auctioneer VALUES (6339, 0, 0); 
-INSERT INTO auctioneer VALUES (6351, 0, 0); 
-INSERT INTO auctioneer VALUES (6367, 0, 0); 
-INSERT INTO auctioneer VALUES (6368, 0, 0); 
-INSERT INTO auctioneer VALUES (6370, 0, 0); 
-INSERT INTO auctioneer VALUES (6386, 0, 0); 
-INSERT INTO auctioneer VALUES (6407, 0, 0); 
-INSERT INTO auctioneer VALUES (6415, 0, 0); 
-INSERT INTO auctioneer VALUES (6445, 0, 0); 
-INSERT INTO auctioneer VALUES (6448, 0, 0); 
-INSERT INTO auctioneer VALUES (6449, 0, 0); 
-INSERT INTO auctioneer VALUES (6450, 0, 0); 
-INSERT INTO auctioneer VALUES (6451, 0, 0); 
-INSERT INTO auctioneer VALUES (6463, 0, 0); 
-INSERT INTO auctioneer VALUES (6480, 0, 0); 
-INSERT INTO auctioneer VALUES (6487, 0, 0); 
-INSERT INTO auctioneer VALUES (6491, 0, 0); 
-INSERT INTO auctioneer VALUES (6503, 0, 0); 
-INSERT INTO auctioneer VALUES (6506, 0, 0); 
-INSERT INTO auctioneer VALUES (6510, 0, 0); 
-INSERT INTO auctioneer VALUES (6522, 0, 0); 
-INSERT INTO auctioneer VALUES (6525, 0, 0); 
-INSERT INTO auctioneer VALUES (6555, 0, 0); 
-INSERT INTO auctioneer VALUES (6558, 0, 0); 
-INSERT INTO auctioneer VALUES (6575, 0, 0); 
-INSERT INTO auctioneer VALUES (6585, 0, 0); 
-INSERT INTO auctioneer VALUES (6611, 0, 0); 
-INSERT INTO auctioneer VALUES (6617, 0, 0); 
-INSERT INTO auctioneer VALUES (6641, 0, 0); 
-INSERT INTO auctioneer VALUES (6647, 0, 0); 
-INSERT INTO auctioneer VALUES (6664, 0, 0); 
-INSERT INTO auctioneer VALUES (6672, 0, 0); 
-INSERT INTO auctioneer VALUES (6707, 0, 0); 
-INSERT INTO auctioneer VALUES (6716, 0, 0); 
-INSERT INTO auctioneer VALUES (6722, 0, 0); 
-INSERT INTO auctioneer VALUES (6726, 0, 0); 
-INSERT INTO auctioneer VALUES (6767, 0, 0); 
-INSERT INTO auctioneer VALUES (6770, 0, 0); 
-INSERT INTO auctioneer VALUES (6771, 0, 0); 
-INSERT INTO auctioneer VALUES (6778, 0, 0); 
-INSERT INTO auctioneer VALUES (6821, 0, 0); 
-INSERT INTO auctioneer VALUES (6871, 0, 0); 
-INSERT INTO auctioneer VALUES (6873, 0, 0); 
-INSERT INTO auctioneer VALUES (6885, 0, 0); 
-INSERT INTO auctioneer VALUES (6892, 0, 0); 
-INSERT INTO auctioneer VALUES (6893, 0, 0); 
-INSERT INTO auctioneer VALUES (6903, 0, 0); 
-INSERT INTO auctioneer VALUES (6921, 0, 0); 
-INSERT INTO auctioneer VALUES (6937, 0, 0); 
-INSERT INTO auctioneer VALUES (6941, 0, 0); 
-INSERT INTO auctioneer VALUES (6957, 0, 0); 
-INSERT INTO auctioneer VALUES (6962, 0, 0); 
-INSERT INTO auctioneer VALUES (6966, 0, 0); 
-INSERT INTO auctioneer VALUES (6970, 0, 0); 
-INSERT INTO auctioneer VALUES (6979, 0, 0); 
-INSERT INTO auctioneer VALUES (6989, 0, 0); 
-INSERT INTO auctioneer VALUES (7004, 0, 0); 
-INSERT INTO auctioneer VALUES (7013, 0, 0); 
-INSERT INTO auctioneer VALUES (7020, 0, 0); 
-INSERT INTO auctioneer VALUES (7036, 0, 0); 
-INSERT INTO auctioneer VALUES (7039, 0, 0); 
-INSERT INTO auctioneer VALUES (7040, 0, 0); 
-INSERT INTO auctioneer VALUES (7046, 0, 0); 
-INSERT INTO auctioneer VALUES (7053, 0, 0); 
-INSERT INTO auctioneer VALUES (7089, 0, 0); 
-INSERT INTO auctioneer VALUES (7100, 0, 0); 
-INSERT INTO auctioneer VALUES (7108, 0, 0); 
-INSERT INTO auctioneer VALUES (7117, 0, 0); 
-INSERT INTO auctioneer VALUES (7127, 0, 0); 
-INSERT INTO auctioneer VALUES (7148, 0, 0); 
-INSERT INTO auctioneer VALUES (7153, 0, 0); 
-INSERT INTO auctioneer VALUES (7158, 0, 0); 
-INSERT INTO auctioneer VALUES (7175, 0, 0); 
-INSERT INTO auctioneer VALUES (7194, 0, 0); 
-INSERT INTO auctioneer VALUES (7199, 0, 0); 
-INSERT INTO auctioneer VALUES (7201, 0, 0); 
-INSERT INTO auctioneer VALUES (7208, 0, 0); 
-INSERT INTO auctioneer VALUES (7240, 0, 0); 
-INSERT INTO auctioneer VALUES (7245, 0, 0); 
-INSERT INTO auctioneer VALUES (7260, 0, 0); 
-INSERT INTO auctioneer VALUES (7293, 0, 0); 
-INSERT INTO auctioneer VALUES (7297, 0, 0); 
-INSERT INTO auctioneer VALUES (7314, 0, 0); 
-INSERT INTO auctioneer VALUES (7321, 0, 0); 
-INSERT INTO auctioneer VALUES (7340, 0, 0); 
-INSERT INTO auctioneer VALUES (7349, 0, 0); 
-INSERT INTO auctioneer VALUES (7357, 0, 0); 
-INSERT INTO auctioneer VALUES (7370, 0, 0); 
-INSERT INTO auctioneer VALUES (7377, 0, 0); 
-INSERT INTO auctioneer VALUES (7386, 0, 0); 
-INSERT INTO auctioneer VALUES (7410, 0, 0); 
-INSERT INTO auctioneer VALUES (7422, 0, 0); 
-INSERT INTO auctioneer VALUES (7426, 0, 0); 
-INSERT INTO auctioneer VALUES (7435, 0, 0); 
-INSERT INTO auctioneer VALUES (7436, 0, 0); 
-INSERT INTO auctioneer VALUES (7449, 0, 0); 
-INSERT INTO auctioneer VALUES (7451, 0, 0); 
-INSERT INTO auctioneer VALUES (7463, 0, 0); 
-INSERT INTO auctioneer VALUES (7469, 0, 0); 
-INSERT INTO auctioneer VALUES (7472, 0, 0); 
-INSERT INTO auctioneer VALUES (7514, 0, 0); 
-INSERT INTO auctioneer VALUES (7519, 0, 0); 
-INSERT INTO auctioneer VALUES (7569, 0, 0); 
-INSERT INTO auctioneer VALUES (7582, 0, 0); 
-INSERT INTO auctioneer VALUES (7585, 0, 0); 
-INSERT INTO auctioneer VALUES (7587, 0, 0); 
-INSERT INTO auctioneer VALUES (7602, 0, 0); 
-INSERT INTO auctioneer VALUES (7605, 0, 0); 
-INSERT INTO auctioneer VALUES (7614, 0, 0); 
-INSERT INTO auctioneer VALUES (7637, 0, 0); 
-INSERT INTO auctioneer VALUES (7640, 0, 0); 
-INSERT INTO auctioneer VALUES (7645, 0, 0); 
-INSERT INTO auctioneer VALUES (7650, 0, 0); 
-INSERT INTO auctioneer VALUES (7662, 0, 0); 
-INSERT INTO auctioneer VALUES (7670, 0, 0); 
-INSERT INTO auctioneer VALUES (7674, 0, 0); 
-INSERT INTO auctioneer VALUES (7677, 0, 0); 
-INSERT INTO auctioneer VALUES (7683, 0, 0); 
-INSERT INTO auctioneer VALUES (7688, 0, 0); 
-INSERT INTO auctioneer VALUES (7700, 0, 0); 
-INSERT INTO auctioneer VALUES (7701, 0, 0); 
-INSERT INTO auctioneer VALUES (7703, 0, 0); 
-INSERT INTO auctioneer VALUES (7707, 0, 0); 
-INSERT INTO auctioneer VALUES (7717, 0, 0); 
-INSERT INTO auctioneer VALUES (7729, 0, 0); 
-INSERT INTO auctioneer VALUES (7757, 0, 0); 
-INSERT INTO auctioneer VALUES (7761, 0, 0); 
-INSERT INTO auctioneer VALUES (7764, 0, 0); 
-INSERT INTO auctioneer VALUES (7765, 0, 0); 
-INSERT INTO auctioneer VALUES (7782, 0, 0); 
-INSERT INTO auctioneer VALUES (7804, 0, 0); 
-INSERT INTO auctioneer VALUES (7817, 0, 0); 
-INSERT INTO auctioneer VALUES (7824, 0, 0); 
-INSERT INTO auctioneer VALUES (7826, 0, 0); 
-INSERT INTO auctioneer VALUES (7846, 0, 0); 
-INSERT INTO auctioneer VALUES (7847, 0, 0); 
-INSERT INTO auctioneer VALUES (7851, 0, 0); 
-INSERT INTO auctioneer VALUES (7852, 0, 0); 
-INSERT INTO auctioneer VALUES (7854, 0, 0); 
-INSERT INTO auctioneer VALUES (7901, 0, 0); 
-INSERT INTO auctioneer VALUES (7946, 0, 0); 
-INSERT INTO auctioneer VALUES (7950, 0, 0); 
-INSERT INTO auctioneer VALUES (7961, 0, 0); 
-INSERT INTO auctioneer VALUES (7964, 0, 0); 
-INSERT INTO auctioneer VALUES (7965, 0, 0); 
-INSERT INTO auctioneer VALUES (7972, 0, 0); 
-INSERT INTO auctioneer VALUES (8034, 0, 0); 
-INSERT INTO auctioneer VALUES (8054, 0, 0); 
-INSERT INTO auctioneer VALUES (8067, 0, 0); 
-INSERT INTO auctioneer VALUES (8069, 0, 0); 
-INSERT INTO auctioneer VALUES (8084, 0, 0); 
-INSERT INTO auctioneer VALUES (8087, 0, 0); 
-INSERT INTO auctioneer VALUES (8094, 0, 0); 
-INSERT INTO auctioneer VALUES (8097, 0, 0); 
-INSERT INTO auctioneer VALUES (8099, 0, 0); 
-INSERT INTO auctioneer VALUES (8102, 0, 0); 
-INSERT INTO auctioneer VALUES (8105, 0, 0); 
-INSERT INTO auctioneer VALUES (8111, 0, 0); 
-INSERT INTO auctioneer VALUES (8116, 0, 0); 
-INSERT INTO auctioneer VALUES (8118, 0, 0); 
-INSERT INTO auctioneer VALUES (8130, 0, 0); 
-INSERT INTO auctioneer VALUES (8131, 0, 0); 
-INSERT INTO auctioneer VALUES (8134, 0, 0); 
-INSERT INTO auctioneer VALUES (8138, 0, 0); 
-INSERT INTO auctioneer VALUES (8139, 0, 0); 
-INSERT INTO auctioneer VALUES (8150, 0, 0); 
-INSERT INTO auctioneer VALUES (8151, 0, 0); 
-INSERT INTO auctioneer VALUES (8154, 0, 0); 
-INSERT INTO auctioneer VALUES (8162, 0, 0); 
-INSERT INTO auctioneer VALUES (8175, 0, 0); 
-INSERT INTO auctioneer VALUES (8181, 0, 0); 
-INSERT INTO auctioneer VALUES (8183, 0, 0); 
-INSERT INTO auctioneer VALUES (8213, 0, 0); 
-INSERT INTO auctioneer VALUES (8216, 0, 0); 
-INSERT INTO auctioneer VALUES (8218, 0, 0); 
-INSERT INTO auctioneer VALUES (8220, 0, 0); 
-INSERT INTO auctioneer VALUES (8224, 0, 0); 
-INSERT INTO auctioneer VALUES (8244, 0, 0); 
-INSERT INTO auctioneer VALUES (8248, 0, 0); 
-INSERT INTO auctioneer VALUES (8271, 0, 0); 
-INSERT INTO auctioneer VALUES (8293, 0, 0); 
-INSERT INTO auctioneer VALUES (8300, 0, 0); 
-INSERT INTO auctioneer VALUES (8315, 0, 0); 
-INSERT INTO auctioneer VALUES (8317, 0, 0); 
-INSERT INTO auctioneer VALUES (8322, 0, 0); 
-INSERT INTO auctioneer VALUES (8324, 0, 0); 
-INSERT INTO auctioneer VALUES (8325, 0, 0); 
-INSERT INTO auctioneer VALUES (8333, 0, 0); 
-INSERT INTO auctioneer VALUES (8344, 0, 0); 
-INSERT INTO auctioneer VALUES (8361, 0, 0); 
-INSERT INTO auctioneer VALUES (8364, 0, 0); 
-INSERT INTO auctioneer VALUES (8365, 0, 0); 
-INSERT INTO auctioneer VALUES (8373, 0, 0); 
-INSERT INTO auctioneer VALUES (8374, 0, 0); 
-INSERT INTO auctioneer VALUES (8376, 0, 0); 
-INSERT INTO auctioneer VALUES (8379, 0, 0); 
-INSERT INTO auctioneer VALUES (8380, 0, 0); 
-INSERT INTO auctioneer VALUES (8394, 0, 0); 
-INSERT INTO auctioneer VALUES (8401, 0, 0); 
-INSERT INTO auctioneer VALUES (8403, 0, 0); 
-INSERT INTO auctioneer VALUES (8406, 0, 0); 
-INSERT INTO auctioneer VALUES (8416, 0, 0); 
-INSERT INTO auctioneer VALUES (8419, 0, 0); 
-INSERT INTO auctioneer VALUES (8421, 0, 0); 
-INSERT INTO auctioneer VALUES (8434, 0, 0); 
-INSERT INTO auctioneer VALUES (8448, 0, 0); 
-INSERT INTO auctioneer VALUES (8455, 0, 0); 
-INSERT INTO auctioneer VALUES (8464, 0, 0); 
-INSERT INTO auctioneer VALUES (8471, 0, 0); 
-INSERT INTO auctioneer VALUES (8523, 0, 0); 
-INSERT INTO auctioneer VALUES (8524, 0, 0); 
-INSERT INTO auctioneer VALUES (8530, 0, 0); 
-INSERT INTO auctioneer VALUES (8544, 0, 0); 
-INSERT INTO auctioneer VALUES (8545, 0, 0); 
-INSERT INTO auctioneer VALUES (8557, 0, 0); 
-INSERT INTO auctioneer VALUES (8560, 0, 0); 
-INSERT INTO auctioneer VALUES (8592, 0, 0); 
-INSERT INTO auctioneer VALUES (8621, 0, 0); 
-INSERT INTO auctioneer VALUES (8626, 0, 0); 
-INSERT INTO auctioneer VALUES (8631, 0, 0); 
-INSERT INTO auctioneer VALUES (8658, 0, 0); 
-INSERT INTO auctioneer VALUES (8660, 0, 0); 
-INSERT INTO auctioneer VALUES (8673, 0, 0); 
-INSERT INTO auctioneer VALUES (8679, 0, 0); 
-INSERT INTO auctioneer VALUES (8683, 0, 0); 
-INSERT INTO auctioneer VALUES (8685, 0, 0); 
-INSERT INTO auctioneer VALUES (8691, 0, 0); 
-INSERT INTO auctioneer VALUES (8693, 0, 0); 
-INSERT INTO auctioneer VALUES (8705, 0, 0); 
-INSERT INTO auctioneer VALUES (8713, 0, 0); 
-INSERT INTO auctioneer VALUES (8714, 0, 0); 
-INSERT INTO auctioneer VALUES (8726, 0, 0); 
-INSERT INTO auctioneer VALUES (8730, 0, 0); 
-INSERT INTO auctioneer VALUES (8732, 0, 0); 
-INSERT INTO auctioneer VALUES (8746, 0, 0); 
-INSERT INTO auctioneer VALUES (8752, 0, 0); 
-INSERT INTO auctioneer VALUES (8761, 0, 0); 
-INSERT INTO auctioneer VALUES (8768, 0, 0); 
-INSERT INTO auctioneer VALUES (8785, 0, 0); 
-INSERT INTO auctioneer VALUES (8792, 0, 0); 
-INSERT INTO auctioneer VALUES (8799, 0, 0); 
-INSERT INTO auctioneer VALUES (8801, 0, 0); 
-INSERT INTO auctioneer VALUES (8822, 0, 0); 
-INSERT INTO auctioneer VALUES (8825, 0, 0); 
-INSERT INTO auctioneer VALUES (8840, 0, 0); 
-INSERT INTO auctioneer VALUES (8845, 0, 0); 
-INSERT INTO auctioneer VALUES (8848, 0, 0); 
-INSERT INTO auctioneer VALUES (8854, 0, 0); 
-INSERT INTO auctioneer VALUES (8860, 0, 0); 
-INSERT INTO auctioneer VALUES (8862, 0, 0); 
-INSERT INTO auctioneer VALUES (8873, 0, 0); 
-INSERT INTO auctioneer VALUES (8886, 0, 0); 
-INSERT INTO auctioneer VALUES (8905, 0, 0); 
-INSERT INTO auctioneer VALUES (8916, 0, 0); 
-INSERT INTO auctioneer VALUES (8923, 0, 0); 
-INSERT INTO auctioneer VALUES (8939, 0, 0); 
-INSERT INTO auctioneer VALUES (8946, 0, 0); 
-INSERT INTO auctioneer VALUES (8956, 0, 0); 
-INSERT INTO auctioneer VALUES (8957, 0, 0); 
-INSERT INTO auctioneer VALUES (8964, 0, 0); 
-INSERT INTO auctioneer VALUES (8977, 0, 0); 
-INSERT INTO auctioneer VALUES (8978, 0, 0); 
-INSERT INTO auctioneer VALUES (8979, 0, 0); 
-INSERT INTO auctioneer VALUES (8988, 0, 0); 
-INSERT INTO auctioneer VALUES (8996, 0, 0); 
-INSERT INTO auctioneer VALUES (8997, 0, 0); 
-INSERT INTO auctioneer VALUES (9004, 0, 0); 
-INSERT INTO auctioneer VALUES (9008, 0, 0); 
-INSERT INTO auctioneer VALUES (9027, 0, 0); 
-INSERT INTO auctioneer VALUES (9029, 0, 0); 
-INSERT INTO auctioneer VALUES (9053, 0, 0); 
-INSERT INTO auctioneer VALUES (9057, 0, 0); 
-INSERT INTO auctioneer VALUES (9058, 0, 0); 
-INSERT INTO auctioneer VALUES (9084, 0, 0); 
-INSERT INTO auctioneer VALUES (9090, 0, 0); 
-INSERT INTO auctioneer VALUES (9117, 0, 0); 
-INSERT INTO auctioneer VALUES (9132, 0, 0); 
-INSERT INTO auctioneer VALUES (9138, 0, 0); 
-INSERT INTO auctioneer VALUES (9140, 0, 0); 
-INSERT INTO auctioneer VALUES (9143, 0, 0); 
-INSERT INTO auctioneer VALUES (9150, 0, 0); 
-INSERT INTO auctioneer VALUES (9168, 0, 0); 
-INSERT INTO auctioneer VALUES (9175, 0, 0); 
-INSERT INTO auctioneer VALUES (9178, 0, 0); 
-INSERT INTO auctioneer VALUES (9198, 0, 0); 
-INSERT INTO auctioneer VALUES (9200, 0, 0); 
-INSERT INTO auctioneer VALUES (9201, 0, 0); 
-INSERT INTO auctioneer VALUES (9229, 0, 0); 
-INSERT INTO auctioneer VALUES (9261, 0, 0); 
-INSERT INTO auctioneer VALUES (9264, 0, 0); 
-INSERT INTO auctioneer VALUES (9272, 0, 0); 
-INSERT INTO auctioneer VALUES (9274, 0, 0); 
-INSERT INTO auctioneer VALUES (9289, 0, 0); 
-INSERT INTO auctioneer VALUES (9290, 0, 0); 
-INSERT INTO auctioneer VALUES (9291, 0, 0); 
-INSERT INTO auctioneer VALUES (9297, 0, 0); 
-INSERT INTO auctioneer VALUES (9313, 0, 0); 
-INSERT INTO auctioneer VALUES (9321, 0, 0); 
-INSERT INTO auctioneer VALUES (9346, 0, 0); 
-INSERT INTO auctioneer VALUES (9352, 0, 0); 
-INSERT INTO auctioneer VALUES (9359, 0, 0); 
-INSERT INTO auctioneer VALUES (9361, 0, 0); 
-INSERT INTO auctioneer VALUES (9364, 0, 0); 
-INSERT INTO auctioneer VALUES (9386, 0, 0); 
-INSERT INTO auctioneer VALUES (9389, 0, 0); 
-INSERT INTO auctioneer VALUES (9416, 0, 0); 
-INSERT INTO auctioneer VALUES (9434, 0, 0); 
-INSERT INTO auctioneer VALUES (9438, 0, 0); 
-INSERT INTO auctioneer VALUES (9453, 0, 0); 
-INSERT INTO auctioneer VALUES (9459, 0, 0); 
-INSERT INTO auctioneer VALUES (9476, 0, 0); 
-INSERT INTO auctioneer VALUES (9486, 0, 0); 
-INSERT INTO auctioneer VALUES (9502, 0, 0); 
-INSERT INTO auctioneer VALUES (9517, 0, 0); 
-INSERT INTO auctioneer VALUES (9518, 0, 0); 
-INSERT INTO auctioneer VALUES (9536, 0, 0); 
-INSERT INTO auctioneer VALUES (9541, 0, 0); 
-INSERT INTO auctioneer VALUES (9568, 0, 0); 
-INSERT INTO auctioneer VALUES (9575, 0, 0); 
-INSERT INTO auctioneer VALUES (9583, 0, 0); 
-INSERT INTO auctioneer VALUES (9614, 0, 0); 
-INSERT INTO auctioneer VALUES (9634, 0, 0); 
-INSERT INTO auctioneer VALUES (9635, 0, 0); 
-INSERT INTO auctioneer VALUES (9647, 0, 0); 
-INSERT INTO auctioneer VALUES (9652, 0, 0); 
-INSERT INTO auctioneer VALUES (9666, 0, 0); 
-INSERT INTO auctioneer VALUES (9672, 0, 0); 
-INSERT INTO auctioneer VALUES (9704, 0, 0); 
-INSERT INTO auctioneer VALUES (9709, 0, 0); 
-INSERT INTO auctioneer VALUES (9714, 0, 0); 
-INSERT INTO auctioneer VALUES (9717, 0, 0); 
-INSERT INTO auctioneer VALUES (9723, 0, 0); 
-INSERT INTO auctioneer VALUES (9727, 0, 0); 
-INSERT INTO auctioneer VALUES (9732, 0, 0); 
-INSERT INTO auctioneer VALUES (9737, 0, 0); 
-INSERT INTO auctioneer VALUES (9738, 0, 0); 
-INSERT INTO auctioneer VALUES (9756, 0, 0); 
-INSERT INTO auctioneer VALUES (9758, 0, 0); 
-INSERT INTO auctioneer VALUES (9759, 0, 0); 
-INSERT INTO auctioneer VALUES (9763, 0, 0); 
-INSERT INTO auctioneer VALUES (9764, 0, 0); 
-INSERT INTO auctioneer VALUES (9804, 0, 0); 
-INSERT INTO auctioneer VALUES (9813, 0, 0); 
-INSERT INTO auctioneer VALUES (9844, 0, 0); 
-INSERT INTO auctioneer VALUES (9853, 0, 0); 
-INSERT INTO auctioneer VALUES (9860, 0, 0); 
-INSERT INTO auctioneer VALUES (9861, 0, 0); 
-INSERT INTO auctioneer VALUES (9865, 0, 0); 
-INSERT INTO auctioneer VALUES (9871, 0, 0); 
-INSERT INTO auctioneer VALUES (9874, 0, 0); 
-INSERT INTO auctioneer VALUES (9884, 0, 0); 
-INSERT INTO auctioneer VALUES (9886, 0, 0); 
-INSERT INTO auctioneer VALUES (9891, 0, 0); 
-INSERT INTO auctioneer VALUES (9918, 0, 0); 
-INSERT INTO auctioneer VALUES (9928, 0, 0); 
-INSERT INTO auctioneer VALUES (9933, 0, 0); 
-INSERT INTO auctioneer VALUES (9934, 0, 0); 
-INSERT INTO auctioneer VALUES (9945, 0, 0); 
-INSERT INTO auctioneer VALUES (9970, 0, 0); 
-INSERT INTO auctioneer VALUES (9981, 0, 0); 
-INSERT INTO auctioneer VALUES (9990, 0, 0); 
-INSERT INTO auctioneer VALUES (9998, 0, 0); 
+INSERT INTO auctioneer VALUES
+(1, 92, 7),
+(8, 85, 7),
+(59, 32, 4),
+(74, 128, 9),
+(78, 32, 3),
+(81, 81, 5),
+(86, 17, 2),
+(91, 79, 6),
+(100, 115, 8),
+(107, 103, 7),
+(119, 13, 2),
+(121, 84, 6),
+(122, 85, 9),
+(131, 116, 8),
+(143, 24, 2),
+(158, 27, 3),
+(179, 62, 5),
+(180, 112, 8),
+(188, 108, 7),
+(191, 51, 4),
+(193, 111, 9),
+(195, 138, 12),
+(218, 90, 7),
+(221, 87, 7),
+(236, 70, 5),
+(251, 36, 3),
+(253, 65, 6),
+(254, 93, 7),
+(264, 65, 5),
+(277, 54, 4),
+(287, 45, 5),
+(291, 57, 5),
+(294, 50, 4),
+(336, 123, 10),
+(355, 80, 6),
+(357, 94, 9),
+(363, 109, 8),
+(408, 125, 9),
+(411, 98, 8),
+(416, 105, 7),
+(420, 107, 9),
+(423, 71, 6),
+(431, 65, 6),
+(437, 82, 7),
+(443, 82, 8),
+(457, 56, 4),
+(488, 83, 7),
+(493, 92, 5),
+(503, 78, 8),
+(508, 20, 2),
+(513, 110, 9),
+(514, 92, 8),
+(527, 82, 5),
+(557, 128, 9),
+(563, 74, 6),
+(570, 130, 12),
+(577, 76, 6),
+(581, 105, 8),
+(582, 148, 12),
+(591, 124, 9),
+(602, 149, 12),
+(613, 127, 9),
+(625, 29, 3),
+(627, 136, 11),
+(632, 211, 16),
+(640, 47, 6),
+(648, 65, 5),
+(656, 48, 4),
+(664, 107, 7),
+(665, 36, 2),
+(689, 69, 6),
+(705, 95, 9),
+(713, 128, 9),
+(715, 36, 3),
+(732, 85, 7),
+(733, 103, 8),
+(736, 122, 11),
+(742, 66, 6),
+(745, 73, 6),
+(775, 92, 9),
+(787, 41, 4),
+(792, 123, 12),
+(796, 44, 4),
+(799, 66, 6),
+(818, 80, 8),
+(890, 125, 10),
+(894, 86, 7),
+(897, 147, 11),
+(912, 101, 9),
+(933, 66, 5),
+(937, 20, 1),
+(939, 71, 6),
+(947, 98, 8),
+(951, 79, 6),
+(961, 105, 8),
+(963, 63, 6),
+(979, 53, 5),
+(982, 45, 4),
+(985, 59, 6),
+(999, 51, 5),
+(1009, 40, 3),
+(1024, 96, 7),
+(1045, 72, 5),
+(1047, 94, 6),
+(1075, 120, 9),
+(1076, 87, 7),
+(1089, 77, 7),
+(1101, 45, 3),
+(1130, 62, 6),
+(1134, 144, 9),
+(1141, 128, 12),
+(1142, 155, 10),
+(1180, 126, 10),
+(1190, 16, 2),
+(1207, 61, 6),
+(1225, 113, 10),
+(1226, 70, 7),
+(1230, 109, 8),
+(1252, 127, 8),
+(1253, 106, 7),
+(1262, 102, 8),
+(1267, 34, 2),
+(1281, 57, 5),
+(1284, 102, 8),
+(1297, 101, 10),
+(1317, 112, 8),
+(1328, 77, 6),
+(1337, 118, 9),
+(1350, 129, 8),
+(1355, 118, 10),
+(1377, 177, 13),
+(1380, 136, 10),
+(1394, 37, 2),
+(1395, 128, 10),
+(1403, 74, 6),
+(1405, 113, 8),
+(1411, 89, 7),
+(1427, 61, 6),
+(1435, 110, 8),
+(1452, 83, 8),
+(1462, 28, 2),
+(1467, 29, 4),
+(1473, 43, 4),
+(1477, 39, 3),
+(1482, 134, 9),
+(1486, 68, 7),
+(1500, 112, 8),
+(1537, 127, 10),
+(1539, 29, 2),
+(1541, 97, 9),
+(1543, 91, 8),
+(1550, 69, 7),
+(1559, 146, 10),
+(1560, 102, 7),
+(1566, 92, 8),
+(1580, 90, 5),
+(1596, 117, 9),
+(1599, 53, 4),
+(1601, 108, 9),
+(1637, 16, 1),
+(1644, 44, 5),
+(1656, 114, 9),
+(1657, 81, 6),
+(1658, 141, 12),
+(1661, 117, 10),
+(1671, 129, 9),
+(1677, 89, 6),
+(1713, 113, 10),
+(1726, 109, 6),
+(1727, 88, 6),
+(1737, 154, 11),
+(1746, 47, 5),
+(1750, 75, 6),
+(1751, 105, 9),
+(1755, 106, 9),
+(1768, 66, 6),
+(1773, 123, 11),
+(1796, 91, 8),
+(1804, 185, 12),
+(1807, 206, 15),
+(1827, 78, 7),
+(1832, 130, 9),
+(1838, 45, 4),
+(1851, 95, 8),
+(1872, 13, 1),
+(1880, 122, 10),
+(1881, 113, 8),
+(1896, 130, 9),
+(1923, 110, 7),
+(1925, 86, 7),
+(1930, 24, 2),
+(1935, 98, 7),
+(1946, 67, 5),
+(1958, 77, 5),
+(1961, 103, 8),
+(1965, 34, 3),
+(1967, 47, 3),
+(1984, 69, 6),
+(1985, 154, 12),
+(1989, 112, 11),
+(2010, 68, 6),
+(2011, 114, 9),
+(2022, 137, 9),
+(2034, 125, 9),
+(2045, 93, 8),
+(2068, 58, 4),
+(2077, 136, 9),
+(2087, 170, 13),
+(2107, 72, 5),
+(2109, 123, 8),
+(2112, 57, 5),
+(2117, 56, 6),
+(2119, 138, 10),
+(2132, 106, 8),
+(2141, 82, 7),
+(2190, 162, 13),
+(2200, 33, 3),
+(2229, 76, 6),
+(2237, 90, 8),
+(2251, 78, 8),
+(2254, 92, 8),
+(2265, 63, 5),
+(2298, 90, 7),
+(2313, 108, 8),
+(2314, 148, 12),
+(2322, 115, 7),
+(2323, 107, 8),
+(2329, 102, 8),
+(2341, 55, 4),
+(2363, 59, 5),
+(2370, 140, 11),
+(2372, 101, 8),
+(2374, 60, 5),
+(2375, 33, 3),
+(2377, 134, 12),
+(2401, 68, 6),
+(2405, 93, 7),
+(2409, 90, 7),
+(2410, 95, 7),
+(2435, 79, 6),
+(2440, 108, 9),
+(2450, 96, 7),
+(2453, 35, 4),
+(2457, 136, 10),
+(2467, 63, 5),
+(2478, 54, 4),
+(2505, 116, 7),
+(2506, 137, 10),
+(2518, 123, 10),
+(2533, 104, 8),
+(2546, 142, 11),
+(2556, 49, 4),
+(2559, 204, 16),
+(2577, 34, 4),
+(2584, 39, 3),
+(2596, 91, 6),
+(2603, 143, 9),
+(2615, 90, 8),
+(2643, 87, 8),
+(2645, 69, 8),
+(2648, 71, 6),
+(2668, 125, 10),
+(2675, 94, 7),
+(2676, 44, 5),
+(2678, 114, 10),
+(2686, 77, 7),
+(2688, 78, 6),
+(2689, 186, 14),
+(2697, 69, 5),
+(2698, 111, 8),
+(2711, 90, 8),
+(2718, 49, 5),
+(2727, 75, 5),
+(2741, 78, 6),
+(2747, 42, 4),
+(2752, 86, 7),
+(2772, 53, 4),
+(2779, 72, 5),
+(2789, 153, 11),
+(2792, 174, 11),
+(2796, 79, 7),
+(2800, 70, 7),
+(2804, 104, 9),
+(2805, 53, 4),
+(2813, 38, 3),
+(2814, 43, 3),
+(2815, 39, 3),
+(2832, 56, 4),
+(2840, 63, 5),
+(2855, 81, 8),
+(2858, 158, 12),
+(2860, 52, 7),
+(2873, 72, 6),
+(2875, 56, 5),
+(2879, 78, 7),
+(2885, 46, 4),
+(2889, 141, 10),
+(2897, 54, 4),
+(2913, 65, 5),
+(2920, 34, 3),
+(2923, 92, 8),
+(2978, 113, 8),
+(2985, 101, 7),
+(2987, 89, 6),
+(2992, 82, 6),
+(3004, 88, 7),
+(3017, 42, 3),
+(3035, 69, 6),
+(3052, 160, 11),
+(3057, 93, 6),
+(3058, 67, 5),
+(3082, 82, 7),
+(3099, 34, 3),
+(3109, 125, 11),
+(3112, 54, 5),
+(3113, 71, 6),
+(3114, 133, 11),
+(3117, 102, 8),
+(3151, 102, 9),
+(3152, 101, 7),
+(3154, 98, 8),
+(3158, 107, 8),
+(3171, 59, 6),
+(3187, 128, 9),
+(3202, 125, 8),
+(3211, 139, 11),
+(3224, 54, 4),
+(3230, 145, 10),
+(3254, 93, 8),
+(3257, 116, 10),
+(3283, 12, 1),
+(3291, 196, 14),
+(3295, 114, 9),
+(3307, 84, 6),
+(3312, 123, 10),
+(3320, 138, 11),
+(3323, 130, 12),
+(3344, 56, 6),
+(3365, 122, 10),
+(3367, 39, 4),
+(3380, 54, 4),
+(3381, 57, 4),
+(3417, 123, 10),
+(3433, 53, 4),
+(3444, 60, 5),
+(3474, 138, 10),
+(3479, 134, 12),
+(3485, 74, 7),
+(3533, 34, 3),
+(3541, 107, 9),
+(3556, 81, 7),
+(3567, 41, 5),
+(3579, 104, 7),
+(3584, 86, 7),
+(3591, 78, 6),
+(3615, 77, 6),
+(3623, 93, 6),
+(3628, 145, 12),
+(3631, 82, 7),
+(3632, 70, 5),
+(3637, 83, 6),
+(3645, 60, 6),
+(3651, 133, 11),
+(3654, 80, 5),
+(3664, 27, 4),
+(3666, 23, 2),
+(3672, 65, 6),
+(3681, 128, 8),
+(3689, 125, 10),
+(3694, 14, 2),
+(3699, 92, 8),
+(3708, 160, 13),
+(3712, 60, 6),
+(3727, 57, 5),
+(3730, 30, 3),
+(3735, 53, 5),
+(3766, 61, 6),
+(3775, 53, 5),
+(3784, 110, 7),
+(3790, 78, 6),
+(3795, 76, 6),
+(3799, 70, 6),
+(3813, 49, 4),
+(3815, 68, 5),
+(3826, 104, 8),
+(3830, 80, 8),
+(3841, 158, 11),
+(3849, 120, 9),
+(3854, 129, 10),
+(3863, 122, 8),
+(3865, 55, 5),
+(3902, 61, 5),
+(3913, 100, 6),
+(3927, 99, 8),
+(3930, 41, 3),
+(3935, 82, 6),
+(3957, 99, 6),
+(3959, 37, 3),
+(3964, 135, 10),
+(3984, 130, 8),
+(3992, 114, 9),
+(4001, 63, 4),
+(4013, 57, 5),
+(4030, 123, 9),
+(4046, 65, 4),
+(4052, 89, 8),
+(4063, 31, 3),
+(4100, 56, 4),
+(4104, 69, 6),
+(4106, 148, 11),
+(4107, 103, 7),
+(4117, 76, 6),
+(4128, 81, 6),
+(4134, 88, 6),
+(4140, 48, 4),
+(4146, 49, 5),
+(4159, 61, 7),
+(4173, 119, 9),
+(4174, 47, 5),
+(4183, 108, 9),
+(4187, 114, 8),
+(4197, 94, 8),
+(4212, 89, 8),
+(4230, 58, 6),
+(4240, 38, 4),
+(4249, 142, 12),
+(4256, 39, 3),
+(4259, 72, 6),
+(4260, 77, 5),
+(4289, 111, 9),
+(4308, 90, 8),
+(4315, 89, 7),
+(4317, 99, 8),
+(4318, 72, 6),
+(4339, 131, 9),
+(4344, 120, 10),
+(4348, 114, 7),
+(4350, 100, 7),
+(4366, 88, 6),
+(4370, 51, 4),
+(4372, 105, 10),
+(4403, 41, 4),
+(4420, 65, 5),
+(4442, 28, 2),
+(4461, 102, 7),
+(4462, 97, 7),
+(4471, 43, 3),
+(4484, 135, 9),
+(4486, 50, 5),
+(4505, 55, 5),
+(4530, 116, 11),
+(4540, 59, 5),
+(4558, 103, 6),
+(4563, 83, 7),
+(4572, 52, 3),
+(4585, 161, 12),
+(4597, 70, 5),
+(4610, 121, 9),
+(4646, 108, 8),
+(4648, 95, 10),
+(4659, 95, 9),
+(4697, 65, 4),
+(4717, 123, 10),
+(4724, 63, 5),
+(4741, 101, 7),
+(4746, 95, 8),
+(4749, 42, 3),
+(4763, 129, 10),
+(4768, 79, 7),
+(4776, 43, 4),
+(4789, 141, 11),
+(4798, 73, 6),
+(4800, 83, 6),
+(4808, 85, 7),
+(4830, 75, 6),
+(4835, 104, 9),
+(4849, 100, 7),
+(4850, 61, 6),
+(4865, 119, 9),
+(4867, 69, 6),
+(4874, 79, 6),
+(4888, 50, 6),
+(4903, 60, 6),
+(4911, 110, 10),
+(4926, 133, 11),
+(4945, 100, 8),
+(4948, 31, 4),
+(4952, 184, 11),
+(4955, 171, 12),
+(4970, 91, 7),
+(4983, 69, 6),
+(4992, 80, 6),
+(5001, 54, 4),
+(5029, 49, 4),
+(5050, 6, 1),
+(5054, 61, 6),
+(5060, 100, 7),
+(5071, 113, 10),
+(5099, 28, 3),
+(5103, 94, 7),
+(5117, 99, 8),
+(5118, 70, 6),
+(5127, 67, 6),
+(5129, 85, 8),
+(5149, 125, 8),
+(5155, 75, 5),
+(5158, 97, 8),
+(5164, 107, 9),
+(5173, 168, 13),
+(5198, 80, 7),
+(5199, 40, 4),
+(5228, 100, 10),
+(5230, 16, 2),
+(5235, 99, 8),
+(5237, 87, 6),
+(5243, 101, 8),
+(5267, 85, 7),
+(5270, 103, 9),
+(5294, 61, 5),
+(5301, 109, 8),
+(5304, 75, 6),
+(5325, 32, 3),
+(5371, 100, 7),
+(5372, 61, 4),
+(5382, 30, 3),
+(5397, 198, 16),
+(5405, 68, 5),
+(5406, 105, 7),
+(5420, 148, 11),
+(5462, 102, 8),
+(5470, 98, 7),
+(5485, 64, 6),
+(5491, 92, 7),
+(5492, 122, 9),
+(5498, 59, 6),
+(5517, 98, 7),
+(5526, 35, 2),
+(5550, 80, 7),
+(5563, 73, 6),
+(5574, 95, 9),
+(5594, 24, 2),
+(5601, 71, 6),
+(5625, 60, 4),
+(5629, 35, 3),
+(5635, 104, 10),
+(5640, 124, 9),
+(5645, 124, 9),
+(5647, 52, 4),
+(5656, 85, 6),
+(5658, 79, 7),
+(5661, 103, 9),
+(5699, 73, 8),
+(5736, 77, 5),
+(5762, 76, 6),
+(5765, 63, 5),
+(5777, 82, 6),
+(5801, 85, 8),
+(5802, 66, 5),
+(5819, 83, 9),
+(5865, 116, 11),
+(5866, 113, 8),
+(5889, 46, 3),
+(5893, 71, 5),
+(5898, 80, 7),
+(5913, 72, 4),
+(5917, 79, 6),
+(5921, 94, 7),
+(5969, 100, 9),
+(5975, 88, 6),
+(5980, 74, 6),
+(5984, 52, 5),
+(5994, 114, 11),
+(5996, 96, 7),
+(5997, 62, 6),
+(6036, 111, 9),
+(6046, 51, 4),
+(6056, 53, 5),
+(6062, 53, 4),
+(6075, 84, 7),
+(6078, 97, 8),
+(6087, 154, 13),
+(6088, 58, 5),
+(6109, 49, 4),
+(6124, 72, 5),
+(6137, 87, 6),
+(6212, 87, 6),
+(6213, 160, 13),
+(6224, 165, 12),
+(6233, 65, 7),
+(6235, 92, 7),
+(6241, 49, 5),
+(6247, 35, 3),
+(6251, 63, 7),
+(6266, 80, 5),
+(6273, 47, 4),
+(6280, 136, 10),
+(6299, 74, 5),
+(6310, 59, 6),
+(6312, 64, 5),
+(6315, 73, 6),
+(6319, 173, 13),
+(6332, 139, 11),
+(6359, 97, 7),
+(6364, 123, 10),
+(6372, 97, 7),
+(6374, 55, 5),
+(6401, 85, 7),
+(6408, 30, 3),
+(6417, 113, 10),
+(6423, 69, 6),
+(6470, 123, 9),
+(6471, 177, 14),
+(6484, 71, 7),
+(6490, 73, 6),
+(6493, 125, 11),
+(6505, 88, 7),
+(6526, 105, 7),
+(6572, 91, 10),
+(6575, 71, 6),
+(6585, 72, 5),
+(6590, 81, 7),
+(6599, 103, 8),
+(6605, 69, 5),
+(6612, 75, 6),
+(6621, 61, 5),
+(6636, 145, 10),
+(6641, 52, 4),
+(6655, 141, 11),
+(6668, 99, 9),
+(6682, 128, 10),
+(6685, 111, 9),
+(6687, 125, 10),
+(6699, 189, 13),
+(6709, 107, 8),
+(6726, 115, 9),
+(6736, 106, 10),
+(6738, 71, 5),
+(6746, 56, 5),
+(6749, 78, 6),
+(6760, 122, 8),
+(6762, 121, 11),
+(6768, 118, 8),
+(6793, 120, 8),
+(6798, 119, 10),
+(6816, 46, 5),
+(6828, 94, 8),
+(6830, 67, 5),
+(6838, 118, 10),
+(6860, 122, 11),
+(6862, 59, 5),
+(6907, 178, 14),
+(6920, 97, 7),
+(6931, 117, 7),
+(6941, 58, 5),
+(6944, 100, 7),
+(6948, 82, 7),
+(6950, 23, 2),
+(6958, 30, 3),
+(6980, 39, 3),
+(6998, 78, 7),
+(7014, 146, 11),
+(7027, 55, 6),
+(7029, 68, 5),
+(7038, 36, 4),
+(7043, 59, 5),
+(7055, 65, 6),
+(7058, 82, 7),
+(7065, 30, 2),
+(7076, 40, 5),
+(7096, 74, 5),
+(7109, 71, 8),
+(7110, 68, 5),
+(7114, 72, 6),
+(7120, 0, 0),
+(7150, 107, 9),
+(7154, 46, 5),
+(7182, 102, 10),
+(7204, 74, 6),
+(7205, 61, 6),
+(7236, 33, 3),
+(7240, 66, 5),
+(7245, 44, 4),
+(7253, 117, 8),
+(7262, 121, 12),
+(7270, 134, 10),
+(7315, 83, 7),
+(7326, 21, 2),
+(7340, 78, 7),
+(7343, 24, 2),
+(7373, 105, 8),
+(7389, 92, 7),
+(7398, 38, 3),
+(7403, 178, 14),
+(7409, 112, 8),
+(7410, 149, 10),
+(7411, 61, 6),
+(7413, 110, 10),
+(7468, 116, 9),
+(7483, 81, 6),
+(7494, 58, 5),
+(7497, 82, 6),
+(7504, 24, 2),
+(7516, 36, 3),
+(7518, 73, 5),
+(7519, 88, 8),
+(7544, 56, 5),
+(7550, 21, 2),
+(7570, 46, 4),
+(7574, 98, 8),
+(7596, 80, 5),
+(7603, 111, 9),
+(7617, 85, 8),
+(7618, 68, 6),
+(7643, 62, 5),
+(7650, 103, 9),
+(7656, 90, 7),
+(7664, 79, 6),
+(7667, 85, 7),
+(7681, 122, 8),
+(7697, 59, 5),
+(7701, 49, 4),
+(7707, 79, 5),
+(7708, 141, 9),
+(7709, 41, 4),
+(7715, 79, 6),
+(7718, 129, 10),
+(7736, 97, 9),
+(7744, 26, 4),
+(7762, 97, 9),
+(7774, 121, 8),
+(7777, 39, 3),
+(7778, 33, 3),
+(7780, 116, 8),
+(7800, 209, 15),
+(7803, 63, 5),
+(7812, 121, 9),
+(7814, 79, 7),
+(7830, 70, 5),
+(7840, 152, 13),
+(7856, 79, 6),
+(7874, 49, 3),
+(7878, 54, 5),
+(7890, 133, 10),
+(7910, 94, 8),
+(7918, 62, 5),
+(7923, 89, 5),
+(7955, 65, 5),
+(7966, 95, 9),
+(7976, 89, 9),
+(7981, 74, 8),
+(8005, 69, 5),
+(8008, 160, 12),
+(8012, 120, 11),
+(8026, 64, 6),
+(8028, 80, 6),
+(8048, 118, 9),
+(8049, 69, 6),
+(8069, 60, 5),
+(8075, 122, 9),
+(8081, 21, 3),
+(8086, 101, 8),
+(8097, 89, 8),
+(8107, 20, 3),
+(8113, 78, 6),
+(8118, 87, 8),
+(8122, 154, 12),
+(8123, 143, 11),
+(8140, 39, 4),
+(8148, 41, 3),
+(8163, 115, 8),
+(8188, 93, 8),
+(8192, 88, 7),
+(8214, 19, 1),
+(8217, 87, 9),
+(8221, 29, 2),
+(8222, 132, 11),
+(8228, 128, 10),
+(8238, 52, 4),
+(8245, 66, 6),
+(8262, 115, 9),
+(8263, 48, 3),
+(8269, 81, 6),
+(8304, 54, 3),
+(8310, 60, 6),
+(8312, 88, 6),
+(8325, 77, 7),
+(8333, 103, 8),
+(8342, 114, 9),
+(8360, 58, 5),
+(8370, 99, 8),
+(8375, 161, 12),
+(8396, 47, 4),
+(8398, 95, 6),
+(8399, 61, 6),
+(8401, 18, 1),
+(8418, 77, 5),
+(8424, 92, 7),
+(8455, 76, 8),
+(8457, 167, 11),
+(8463, 145, 10),
+(8475, 52, 6),
+(8476, 69, 5),
+(8477, 21, 2),
+(8484, 113, 10),
+(8497, 58, 4),
+(8500, 89, 7),
+(8536, 67, 6),
+(8540, 27, 3),
+(8544, 84, 7),
+(8548, 90, 7),
+(8557, 146, 11),
+(8591, 118, 9),
+(8592, 49, 4),
+(8595, 83, 6),
+(8608, 86, 8),
+(8609, 89, 9),
+(8611, 75, 6),
+(8618, 72, 5),
+(8638, 70, 7),
+(8639, 99, 7),
+(8641, 77, 6),
+(8643, 73, 5),
+(8647, 20, 2),
+(8660, 27, 2),
+(8675, 79, 6),
+(8685, 153, 10),
+(8687, 73, 5),
+(8705, 106, 8),
+(8708, 76, 6),
+(8709, 79, 7),
+(8715, 64, 6),
+(8746, 78, 6),
+(8753, 87, 7),
+(8763, 64, 4),
+(8769, 48, 4),
+(8780, 126, 10),
+(8783, 153, 15),
+(8785, 72, 6),
+(8800, 70, 5),
+(8805, 75, 8),
+(8808, 82, 6),
+(8810, 95, 7),
+(8835, 77, 7),
+(8843, 180, 13),
+(8858, 114, 9),
+(8881, 103, 7),
+(8882, 29, 3),
+(8895, 75, 7),
+(8909, 88, 6),
+(8928, 77, 8),
+(8938, 66, 5),
+(8949, 72, 8),
+(8988, 101, 9),
+(8998, 42, 4),
+(8999, 47, 5),
+(9000, 120, 9),
+(9006, 116, 9),
+(9025, 23, 2),
+(9037, 93, 7),
+(9052, 22, 3),
+(9063, 79, 6),
+(9075, 105, 7),
+(9082, 80, 5),
+(9095, 83, 6),
+(9116, 195, 13),
+(9122, 88, 7),
+(9130, 143, 11),
+(9147, 32, 3),
+(9164, 67, 5),
+(9167, 240, 18),
+(9172, 50, 3),
+(9173, 77, 6),
+(9186, 105, 8),
+(9190, 56, 5),
+(9195, 75, 7),
+(9228, 76, 9),
+(9229, 57, 4),
+(9230, 90, 7),
+(9239, 137, 11),
+(9251, 83, 6),
+(9260, 28, 3),
+(9275, 39, 4),
+(9290, 80, 7),
+(9292, 50, 4),
+(9294, 53, 6),
+(9296, 32, 3),
+(9298, 181, 15),
+(9303, 41, 4),
+(9313, 123, 9),
+(9316, 92, 7),
+(9317, 43, 3),
+(9320, 48, 4),
+(9341, 33, 3),
+(9351, 101, 6),
+(9368, 111, 8),
+(9374, 26, 2),
+(9375, 138, 11),
+(9384, 162, 11),
+(9394, 90, 8),
+(9396, 62, 4),
+(9406, 74, 6),
+(9410, 113, 8),
+(9422, 82, 9),
+(9428, 155, 11),
+(9452, 32, 3),
+(9456, 59, 7),
+(9457, 94, 9),
+(9461, 108, 9),
+(9476, 89, 8),
+(9517, 61, 6),
+(9528, 172, 13),
+(9533, 100, 8),
+(9544, 126, 11),
+(9547, 72, 5),
+(9551, 89, 7),
+(9552, 141, 9),
+(9561, 87, 5),
+(9563, 79, 7),
+(9593, 55, 5),
+(9594, 27, 3),
+(9600, 42, 4),
+(9604, 115, 8),
+(9640, 112, 7),
+(9647, 49, 4),
+(9648, 43, 6),
+(9662, 64, 4),
+(9670, 84, 6),
+(9685, 42, 4),
+(9688, 49, 4),
+(9708, 81, 7),
+(9729, 86, 8),
+(9730, 42, 3),
+(9732, 75, 6),
+(9733, 93, 8),
+(9736, 89, 8),
+(9737, 110, 10),
+(9739, 93, 6),
+(9760, 145, 9),
+(9764, 143, 11),
+(9798, 143, 10),
+(9821, 128, 9),
+(9826, 109, 8),
+(9839, 104, 7),
+(9846, 46, 5),
+(9852, 88, 7),
+(9860, 172, 13),
+(9867, 108, 8),
+(9870, 157, 11),
+(9871, 150, 12),
+(9882, 116, 9),
+(9886, 70, 6),
+(9896, 38, 3),
+(9900, 39, 3),
+(9910, 90, 8),
+(9917, 83, 7),
+(9930, 28, 2),
+(9931, 27, 2),
+(9934, 35, 4),
+(9943, 80, 8),
+(9945, 83, 6),
+(9960, 98, 7),
+(9992, 124, 8);

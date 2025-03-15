@@ -1,5 +1,3 @@
- - Endpoint: GET /user
- - Body: GetUserInfoReqDto (
-    int userId;
- )
- - Auth: Role.Auctioneer
+ - Endpoint: GET /user/{userId}
+ - Body: None
+ - Auth: Role.Auctioneer, Role.Bidder

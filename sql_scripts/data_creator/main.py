@@ -9,6 +9,7 @@ user = "root"
 password = "admin123456"
 database = "auctions"
 
+NEW_LINE_INSERT = "INSERT INTO %s VALUES\n"
 
 import re
 from unidecode import unidecode
@@ -137,9 +138,14 @@ def get_random_role():
 
     return rd.choices(ROLES, weights = probabilities, k=1)[0]
 
+def find_user_by_id(id):
+    global users_dict
+    return users_dict[id]
+
 def create_random_users():
-    global users, bidders, bidden_prices, auctioneers, categories, N_USERS
+    global users, bidders, bidden_prices, auctioneers, categories, N_USERS, users_dict
     users = []
+    users_dict = {}
     bidders = []
     auctioneers = []
     bidden_prices = []
@@ -180,6 +186,7 @@ def create_random_users():
             "n_bought_product": 0
         }
         users.append(user)
+        users_dict[user["id"]] = user
         if role == "BIDDER":
             user["n_bought_product"] = 0
             bidders.append(user)
@@ -218,6 +225,11 @@ def create_random_products():
         }
         if state == "SOLD":
             product["bidder_id"] = rd.choice(bidders)["id"]
+            auctioneer = find_user_by_id(product["auctioneer_id"])
+            bidder = find_user_by_id(product["bidder_id"])
+            auctioneer["n_sold_product"] += 1
+            auctioneer["credit"] += rd.randint(5, 20)
+            bidder["n_bought_product"] += 1
         products.append(product)
     print("Finish create random products's data")
 
@@ -255,10 +267,26 @@ def create_random_bidden_prices():
             previous_price = price
     print("Finish create random bidden prices's data")
 
+def create_random_product_categories():
+    global products, categories, product_categories
+    product_categories = []
+    count = 0
+    for product in products:
+        self_categories = rd.choices([i + 1 for i in range(len(categories))], k = rd.randint(3, 6))
+        for category in self_categories:
+            count += 1
+            product_category = {
+                "id": count,
+                "product_id": product["id"],
+                "category_id": category
+            }
+            product_categories.append(product_category)
+
 def generate_insert_product_query():    
     global products, auctioneers, N_PRODUCTS
     
-    file = open("sql_scripts/insert_product_queries.sql", "w", encoding = 'utf-8')
+    lines = []
+    # ----------------------
     for product in products:
         id = product["id"]
         auctioneer_id = product["auctioneer_id"]
@@ -269,42 +297,46 @@ def generate_insert_product_query():
         created_date = product["created_date"]
         state = product["state"]
         location = product["location"]
-        query = f"INSERT INTO product VALUES ({id}, {auctioneer_id}, '{name}', '{image_url}', {beginning_price}, {current_price}, '{created_date}', '{state}', '{location}');\n"
-        file.write(query)
-    file.close()
+        query = f"({id}, {auctioneer_id}, '{name}', '{image_url}', {beginning_price}, {current_price}, '{created_date}', '{state}', '{location}')"
+        lines.append(query)
+    write_data_to_file("sql_scripts/insert_product_queries.sql", lines, "product")
     print("Finish product query")
 
 def generate_insert_bidder_query():
     global bidders
-    file = open("sql_scripts/insert_bidder_queries.sql", "w", encoding = 'utf-8')
-
+    
+    lines = []
     for user in bidders:
         id = user["id"]
         n_bought_product = user["n_bought_product"]
-        query = f"INSERT INTO bidder VALUES ({id}, {n_bought_product}); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, {n_bought_product})"
+        lines.append(query)
+
+    write_data_to_file("sql_scripts/insert_bidder_queries.sql", lines, "bidder")
     print("Finish bidder query")
 
 def generate_insert_auctioneer_query():
     global auctioneers
-    file = open("sql_scripts/insert_auctioneer_queries.sql", "w", encoding = 'utf-8')
-
+    
+    lines = []
     for user in auctioneers:
         id = user["id"]
         credit = user["credit"]
         n_sold_product = user["n_sold_product"]
-        query = f"INSERT INTO auctioneer VALUES ({id}, {credit}, {n_sold_product}); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, {credit}, {n_sold_product})"
+        lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_auctioneer_queries.sql", lines, "auctioneer")
     print("Finish auctioneer query")
 
 def generate_insert_users_query():
     global users
     name_marker = set()
-    file = open("sql_scripts/insert_user_queries.sql", "w", encoding = 'utf-8')
+    
     count_users = 0
-    for user in users:
+    lines = []
+    for i in range(len(users)):
+        user = users[i]
         id = user["id"]
         name = user["name"]
         username = user["username"]
@@ -322,67 +354,71 @@ def generate_insert_users_query():
         age = user["age"]
         location = user["location"]
         cash = user["cash"]
-        query = f"INSERT INTO user VALUES ({id}, '{username}', '{password}', {enabled}, '{email}', {age}, '{name}', '{location}', {cash}, '{created_date}', '{last_login}', '{role}'); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, '{username}', '{password}', {enabled}, '{email}', {age}, '{name}', '{location}', {cash}, '{created_date}', '{last_login}', '{role}')"
+        lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_user_queries.sql", lines, "user")
     print(f"Finish users query, created {count_users}")
 
 def generate_insert_authority_query():
     global users
-    file = open("sql_scripts/insert_authority_queries.sql", "w", encoding = 'utf-8')
+    lines = []
     for user in users:
         id = user["id"]
         username = user["username"]
         authority = f"ROLE_{user["role"]}"
-        query = f"INSERT INTO authority VALUES ({id}, '{username}', '{authority}'); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, '{username}', '{authority}')"
+        lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_authority_queries.sql", lines, "authority")
     print(f"Finish authority query")
 
 def generate_insert_category_query():    
     global categories
 
-    file = open("sql_scripts/insert_category_queries.sql", "w", encoding = 'utf-8')
+    lines = []
     for i in range(len(categories)):
         id = i + 1
         name = categories[i]
-        query = f"INSERT INTO category VALUES ({id}, '{name}'); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, '{name}')"
+        lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_category_queries.sql", lines, "category")
     print("Finish category query")
 
 def generate_insert_product_category_query():
-    global products, categories
-
-    file = open("sql_scripts/insert_product_categories_queries.sql", "w", encoding = 'utf-8')
-    count = 0
-    for product in products:
-        this_categories_ids = rd.choices([i + 1 for i in range(len(categories))], k = rd.randint(1, 4))
-        for category_id in this_categories_ids:
-            count += 1
-            query = f"INSERT INTO product_category VALUES ({count}, {product["id"]}, {category_id}); \n"
-        file.write(query)
-    file.close()
+    global product_categories
+    lines = []
+    for ele in product_categories:
+        id = ele["id"]
+        product_id = ele["product_id"]
+        category_id = ele["category_id"]
+        query = f"({id}, {product_id}, '{category_id}')"
+        lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_product_categories_queries.sql", lines, "product_category")
     print("Finish product category query")
 
 def generate_insert_sold_product_query():
     global products, bidders
-    file = open("sql_scripts/insert_sold_product_queries.sql", "w", encoding = 'utf-8')
+    
+    lines = []
     for product in products:
         if product["state"] == "SOLD":
             bidder = rd.choice(bidders)
             product_id = product["id"]
             sold_date = product["sold_date"]
             bidder_id = bidder["id"]
-            query = f"INSERT INTO sold_product VALUES ({product_id}, '{sold_date}', {bidder_id}); \n"
-            file.write(query)
-    file.close()
+            query = f"({product_id}, '{sold_date}', {bidder_id})"
+            lines.append(query)
+        
+    write_data_to_file("sql_scripts/insert_sold_product_queries.sql", lines, "sold_product")
     print("Finish sold product query")
 
 def generate_insert_bidden_price_query():
     global bidden_prices
 
-    file = open("sql_scripts/insert_bidden_price_queries.sql", "w", encoding = 'utf-8')
+    lines = []
     for idx in range(len(bidden_prices)):
         bidden_price = bidden_prices[idx]
         id = bidden_price["id"]
@@ -390,10 +426,22 @@ def generate_insert_bidden_price_query():
         product_id = bidden_price["product_id"]
         price = bidden_price["price"]
         created_date = bidden_price["created_date"]
-        query = f"INSERT INTO bidden_price VALUES ({id}, {bidder_id}, {product_id}, {price}, '{created_date}'); \n"
-        file.write(query)
-    file.close()
+        query = f"({id}, {bidder_id}, {product_id}, {price}, '{created_date}')"
+        lines.append(query)
+    write_data_to_file("sql_scripts/insert_bidden_price_queries.sql", lines, "bidden_price")
     print("Finish bidden prices query")
+
+def write_data_to_file(file_path, lines, table_name):
+    file = open(file_path, "w", encoding = 'utf-8')
+    new_line_insert = f"INSERT INTO {table_name} VALUES\n"
+    file.write(new_line_insert)
+    for i in range(len(lines)):
+        line = lines[i]
+        line += ";" if i % 1000 == 199 or i == len(lines) - 1 else ","
+        file.write(line + "\n")
+        if i % 1000 == 199 and i != len(lines) - 1:
+            file.write(new_line_insert + "\n")
+    file.close()
 
 def test_bidder():
     # Connect to the MySQL database
@@ -427,20 +475,28 @@ def execute_query_file(file_path):
     count_error = 0
     try:
         lines = file.read().split("\n")
+        query = ""
         for i in range(len(lines)):
             if i % 1000 == 0:
                 print(f"Execute line {i} file {file_path}")
-            query = lines[i]
-            try:
-                cursor.execute(query)
-            except Exception as e:
-                if count_error < 10:
-                    print(f"Error at line {i}: {e}, query : {query}")
-                count_error += 1
+            line = lines[i]
+            while len(line) > 0 and line[-1] == " ":
+                line = line[:-1]
+            query += line
+            if len(line) > 0 and line[-1] == ';':
+                try:
+                    cursor.execute(query)
+                    query = ""
+                except Exception as e:
+                    if count_error < 10:
+                        print(f"Error at line {i}: {e}, query : {query}")
+                    count_error += 1
         conn.commit()
         print(f"Finished execute file {file_path}, queries count : {len(lines)}, count error : {count_error}, total time : {time() - start}")
     except Exception as e:
+        print("Exception in query ")
         print(e)
+        sleep(10)
 
 def reset_data():
     execute_query_file("sql_scripts/reset_data.sql")
@@ -468,6 +524,7 @@ def create_random_data():
     create_random_products()
     create_random_categories()
     create_random_bidden_prices()
+    create_random_product_categories()
 
 def generate_insert_query():
     generate_insert_users_query()

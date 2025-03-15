@@ -2,6 +2,7 @@ package com.example.online_auction_platform.services;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -111,5 +112,31 @@ public class ProductService {
         int productId
     ) {
         return true;
+    }
+
+    /**
+     * Find products by category IDs that come as strings
+     * @param categoryIdStrings List of category IDs as strings
+     * @return List of products matching the category IDs
+     * @throws IllegalArgumentException if any ID is not a valid integer
+     */
+    public List<Product> findProductsByCategoryIdStrings(List<String> categoryIdStrings) {
+        try {
+            List<Integer> categoryIds = categoryIdStrings.stream()
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
+            return productRepo.findByCategories_IdIn(categoryIds);
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("Invalid category ID format. All IDs must be valid integers.");
+        }
+    }
+
+    /**
+     * Find products by category IDs with validation
+     * @param categoryIds List of category IDs as integers
+     * @return List of products matching the category IDs
+     */
+    public List<Product> findProductsByCategoryIds(List<Integer> categoryIds) {
+        return productRepo.findByCategories_IdIn(categoryIds);
     }
 }

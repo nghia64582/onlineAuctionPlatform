@@ -1,6 +1,6 @@
 import random as rd
 
 
-a = [1, 2, 3]
-print(rd.shuffle(a))
+a = "%s23"
+print(a.replace("%s", "a"))
 print(a)

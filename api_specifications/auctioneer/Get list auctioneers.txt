@@ -3,4 +3,4 @@
     int pageNumber;
     int pageSize;
  )
- - Auth: Role.Admin
+ - Auth: Role.Admin, Role.Auctioneer

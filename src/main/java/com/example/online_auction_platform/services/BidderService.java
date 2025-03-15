@@ -1,7 +1,9 @@
 package com.example.online_auction_platform.services;
 
+import java.util.List;
 import java.util.Optional;
 
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -9,7 +11,6 @@ import com.example.online_auction_platform.entities.Bidder;
 import com.example.online_auction_platform.repositories.BidderRepository;
 
 @Service
-@Transactional() 
 public class BidderService {
 
     private BidderRepository bidderRepo;
@@ -31,4 +32,7 @@ public class BidderService {
         }
     }
 
+    public List<Bidder> findAll(Pageable pageable) {
+        return bidderRepo.findAll(pageable).getContent();
+    }
 }

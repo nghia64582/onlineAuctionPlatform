@@ -1,6 +1,7 @@
 package com.example.online_auction_platform.entities;
 
 import java.time.LocalDateTime;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.stream.Collectors;
 

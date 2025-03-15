@@ -2,7 +2,6 @@ package com.example.online_auction_platform.controllers;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Vector;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
@@ -75,11 +74,11 @@ public class ProductController {
     }
 
     @PostMapping("/")
-    public ResponseEntity<?> addNewProduct(
+    public ResponseEntity<Product> addNewProduct(
         @RequestBody AddProductReqDto addProductDto
     ) throws IOException {
         Product product = productService.addNewProduct(addProductDto);
-        return ResponseEntity.ok("Product created successfully!");
+        return ResponseEntity.ok(product);
     }
 
     /*
