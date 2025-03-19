@@ -58,27 +58,6 @@ public class SecurityConfig {
             auth.anyRequest().authenticated();
         });
 
-        // Configure OAuth2 login
-        httpSecurity.oauth2Login(oauth2 -> oauth2
-            .loginPage("/login")
-            .defaultSuccessUrl("/", true)
-            .permitAll()
-        );
-
-        // Configure form login as backup
-        httpSecurity.formLogin(form -> form
-            .loginPage("/login")
-            .loginProcessingUrl("/authenticate")
-            .permitAll()
-        );
-
-        // Configure logout
-        httpSecurity.logout(logout -> logout
-            .logoutUrl("/logout")
-            .logoutSuccessUrl("/")
-            .permitAll()
-        );
-
         httpSecurity.httpBasic(Customizer.withDefaults());
         httpSecurity.csrf(csrf -> csrf.disable());
         
