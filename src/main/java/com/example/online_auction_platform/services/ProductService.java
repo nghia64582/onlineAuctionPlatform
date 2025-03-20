@@ -83,7 +83,7 @@ public class ProductService {
 
     public List<Product> findByAuctioneerId(int auctioneerId, Pageable pageable) {
         // combine with redis aspect
-        List<Product> result = productRepo.findByAuctioneer_Id(auctioneerId, pageable).getContent();
+        List<Product> result = productRepo.findByAuctioneerWithCategories(auctioneerId, pageable);
         result.forEach(product -> product.setBiddenPrices(List.of()));
         return result;
     }

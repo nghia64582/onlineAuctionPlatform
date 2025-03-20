@@ -23,8 +23,6 @@ import com.example.online_auction_platform.dto.request.product.GetProductReqDto;
 import com.example.online_auction_platform.entities.Product;
 import com.example.online_auction_platform.entities.SoldProduct;
 import com.example.online_auction_platform.services.ProductService;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -36,8 +34,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 public class ProductController {
     
     ProductService productService;
-    
-    Gson gson = new GsonBuilder().create();
     
     /*
      * Get selling product of an auctioneer

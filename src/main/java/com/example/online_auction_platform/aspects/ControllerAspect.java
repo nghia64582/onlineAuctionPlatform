@@ -10,20 +10,16 @@ import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Logger;
 
 @Aspect
 @Component
 public class ControllerAspect {
 
-    // setup logger
-    private Logger myLogger = Logger.getLogger(getClass().getName());
 
     private HashMap<String, AtomicInteger> methodCounter;
 
     private ControllerAspect() {
         methodCounter = new HashMap<>();
-        myLogger.info("Create controller aspect.");
     }
 
     // setup pointcut declarations

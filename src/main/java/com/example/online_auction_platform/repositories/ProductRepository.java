@@ -27,7 +27,11 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     
     @Query("SELECT DISTINCT p FROM Product p JOIN p.categories c WHERE c IN :categories")
     public Page<Product> findByAnyCategories(@Param("categories") List<Category> categories, Pageable pageable);
-    
+
+    @Query("SELECT p FROM Product p JOIN FETCH p.categories WHERE p.auctioneer.id = :auctioneerId")
+    List<Product> findByAuctioneerWithCategories(@Param("auctioneerId") int auctioneerId, Pageable pageable);
+
+
     public List<Product> findByCategories_IdIn(List<Integer> categoryIds);
 
     @Query("SELECT p FROM Product p WHERE p.id IN (SELECT bp.product.id FROM BiddenPrice bp WHERE bp.bidder.id = :bidderId)")

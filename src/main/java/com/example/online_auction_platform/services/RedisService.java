@@ -31,6 +31,7 @@ public class RedisService {
             redisTemplate.opsForValue().set(key, json);
         } catch (Exception e) {
             System.out.println("Cache page error");
+            e.printStackTrace();
         }
     }
 

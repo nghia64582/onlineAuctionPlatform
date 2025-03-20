@@ -69,7 +69,7 @@ public class Product {
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     protected List<BiddenPrice> biddenPrices;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
         name = "product_category",
         joinColumns = @JoinColumn(name = "product_id"),
