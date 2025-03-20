@@ -7,9 +7,11 @@ spring:
             initialize-schema: always
 
     datasource:
-        url: jdbc:mysql://localhost:3306/auctions?useSSL=false&allowPublicKeyRetrieval=true
-        username: root
+        url: jdbc:mysql://mysql:3306/auctions?useSSL=false&allowPublicKeyRetrieval=true
+        username: nghia64582
         password: nghia123456
+        jpa:
+            database-platform: org.hibernate.dialect.MySQL8Dialect
 
     security:
         user:
