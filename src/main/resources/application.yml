@@ -9,7 +9,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/auctions?useSSL=false&allowPublicKeyRetrieval=true
         username: root
-        password: admin123456
+        password: nghia123456
 
     security:
         user:
@@ -38,12 +38,3 @@ google:
             uri: https://oauth2.googleapis.com/token
         userinfo:
             uri: https://www.googleapis.com/oauth2/v3/userinfo
-logging:
-    level:
-        org:
-            hibernate: info
-            hibernate.SQL: debug
-            hibernate.orm.jdbc.bind: trace
-            hibernate.stat: debug
-            hibernate.SQL_SLOW: info
-            hibernate.cache: debug

@@ -1,21 +1,25 @@
-# Use an official JDK as base image
-FROM eclipse-temurin:17-jdk-alpine
-
-# Set working directory
+# Step 1: Use Maven official image to build the JAR
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
 
-# Copy the Maven wrapper files and POM to leverage caching
-COPY mvnw pom.xml ./
+# Copy pom.xml and dependencies first (cache optimization)
+COPY pom.xml mvnw ./
 COPY .mvn .mvn
-
-# Download dependencies before copying source code for better caching
 RUN ./mvnw dependency:go-offline
 
-# Copy the entire project
-COPY . .
-
-# Build the application
+# Copy the source code and build the project
+COPY src src
 RUN ./mvnw clean package -DskipTests
 
-# Run the Spring Boot app
-CMD ["java", "-jar", "target/onlineAuctionPlatform.jar"]
+# Step 2: Use lightweight JDK image for runtime
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+
+# Copy the generated JAR file from the build stage
+COPY --from=build /app/target/*.jar app.jar
+
+# Expose application port
+EXPOSE 8080
+
+# Run the Spring Boot application
+CMD ["java", "-jar", "app.jar"]
