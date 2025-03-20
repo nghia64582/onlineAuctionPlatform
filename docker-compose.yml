@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: nghia64582
+      MYSQL_DATABASE: auctions
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql_scripts:/docker-entrypoint-initdb.d  # Mount SQL script
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    restart: always
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]  # Enable persistence
+    volumes:
+      - redis_data:/data
+  app:
+    build: .
+    container_name: spring_boot_app
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/auctions
+      SPRING_DATASOURCE_USERNAME: nghia64582
+      SPRING_DATASOURCE_PASSWORD: nghia123546
+    ports:
+      - "8080:8080"
