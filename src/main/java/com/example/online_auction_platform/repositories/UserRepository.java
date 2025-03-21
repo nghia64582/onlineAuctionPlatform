@@ -8,6 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.online_auction_platform.entities.User;
+import org.springframework.stereotype.Repository;
 
 @Primary
 public interface UserRepository extends JpaRepository<User, Integer> {

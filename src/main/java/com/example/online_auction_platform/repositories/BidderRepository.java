@@ -4,7 +4,9 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.online_auction_platform.entities.Bidder;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface BidderRepository extends JpaRepository<Bidder, Integer> {
     Bidder findByName(String name);
     

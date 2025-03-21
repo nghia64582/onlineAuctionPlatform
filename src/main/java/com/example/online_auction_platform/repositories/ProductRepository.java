@@ -11,7 +11,9 @@ import org.springframework.data.repository.query.Param;
 
 import com.example.online_auction_platform.entities.Category;
 import com.example.online_auction_platform.entities.Product;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface ProductRepository extends JpaRepository<Product, Integer> {
     
     public Page<Product> findAll(Pageable pageable);
