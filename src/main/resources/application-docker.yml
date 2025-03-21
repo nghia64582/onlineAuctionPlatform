@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: online_auction_platform
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+#  datasource:
+#    url: jdbc:mysql://mysql:3306/auctions?useSSL=false&allowPublicKeyRetrieval=true
+#    username: nghia64582
+#    password: nghia123456
+#    jpa:
+#      database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  datasource:
+    url: jdbc:mariadb://mariadb:3306/auctions?useSSL=false&allowPublicKeyRetrieval=true&failOverReadOnly=false&autoReconnect=true
+    username: root
+    password: nghia123456
+    jpa:
+      database-platform: org.hibernate.dialect.MariaDBDialect
+
+  security:
+    user:
+      name: nghia64582
+      password: nghia123456
+
+  data:
+    redis:
+      host: redis
+      port: 6379
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true  # Show formatted SQL queries in the console
+
+google:
+  oauth:
+    client:
+      id: 845416159696-1r3jlfhjbt0chvm336a7hg86nern92gl.apps.googleusercontent.com
+      secret: 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
+    redirect:
+      uri: http://localhost:8080/api/auth/google
+    token:
+      uri: https://oauth2.googleapis.com/token
+    userinfo:
+      uri: https://www.googleapis.com/oauth2/v3/userinfo
+logging:
+  level:
+    org.springframework.jdbc: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG
