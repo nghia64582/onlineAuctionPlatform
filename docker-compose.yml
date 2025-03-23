@@ -9,15 +9,7 @@ services:
       MYSQL_PASSWORD: nghia123456
     ports:
       - "3306:3306"
-    volumes:
       - mysql-data:/data  # Mount SQL script
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis-data:/data
-    command: ["redis-server", "--appendonly", "yes"]
 
   app:
     build:
@@ -37,7 +29,5 @@ services:
 
 
 volumes:
-  redis-data:
-    driver: local
   mysql-data:
     driver: local

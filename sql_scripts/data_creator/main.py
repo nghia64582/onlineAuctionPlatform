@@ -6,7 +6,7 @@ from time import *
 # Replace with your actual database credentials
 host = "localhost" 
 user = "root"
-password = "admin123456"
+password = "nghia123456"
 database = "auctions"
 
 NEW_LINE_INSERT = "INSERT INTO %s VALUES\n"
